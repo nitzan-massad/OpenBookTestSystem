@@ -1,68 +1,28 @@
-<!--<!DOCTYPE html>-->
-<!--<html lang="en" ng-app="myApp">-->
-<!--<head>-->
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
     <!--<script src="angularScripts/angular.js"></script>-->
     <!--<script type="text/javascript" src="angularScripts/angular-route.js"></script>-->
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>-->
-
-    <!--<script src="app.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
     <!--<link rel="stylesheet" href="angularScripts/ng-dialog/css/ngDialog.min.css">-->
     <!--<link rel="stylesheet" href="angularScripts/ng-dialog/css/ngDialog-theme-default.min.css">-->
     <!--<script src="angularScripts/ng-dialog/js/ngDialog.min.js"></script>-->
 
 
-    <!--<meta charset="UTF-8">-->
-    <!--<title>Title</title>-->
-<!--</head>-->
-<!--<body>-->
-<!--&lt;!&ndash;<div class="header" ng-controller="mainController as mainCtrl">&ndash;&gt;-->
-<!--<a href="#!home">Red</a>-->
+    <!--<script type="text/javascript" src="components/login/LoginService.js"></script>-->
+    <!--<script type="text/javascript" src="components/login/LoginController.js"></script>-->
+    <script src="app.js"></script>
 
-<!--<li> <a ng-href="#!/home">Homeee</a></li>-->
-<!--<li> <a ng-href="#!/">Home</a></li>-->
-    <!--<li> <a ng-href="#/home">Homeee</a></li>-->
-    <!--<li> <a ng-href="#/">Home</a></li>-->
-    <!--<li> <a ng-href="#/login">Login</a></li>-->
-
-<!--<div ng-view></div>-->
-<!--&lt;!&ndash;</div>&ndash;&gt;-->
-<!--</body>-->
-<!--</html>-->
-
-<!DOCTYPE html>
-<html>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
-
-<body ng-app="myApp">
-
-<p><a href="#/">Main</a></p>
-
-<a href="#red">Red</a>
-<a href="#green">Green</a>
-<a href="#blue">Blue</a>
-
-<div ng-view></div>
-
-<script>
-    var app = angular.module("myApp", ["ngRoute"]);
-    app.config(function($routeProvider) {
-        $routeProvider
-            .when("/", {
-                templateUrl : "main.htm"
-            })
-            .when("/red", {
-                templateUrl : "red.htm"
-            })
-            .when("/green", {
-                templateUrl : "green.htm"
-            })
-            .when("/blue", {
-                templateUrl : "blue.htm"
-            });
-    });
-</script>
-
-<p>Click on the links to navigate to "red.htm", "green.htm", "blue.htm", or back to "main.htm"</p>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="header" ng-controller="mainController as mainCtrl">
+     <li> <a ng-href="#/">Home</a></li>
+    <li> <a ng-href="#/login">Login</a></li>
+</div>
+<ng-view>
+</ng-view>
 </body>
 </html>
