@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp">
 <head>
-    <script src="angularScripts/angular.js"></script>
-    <script type="text/javascript" src="angularScripts/angular-route.js"></script>
-    <link rel="stylesheet" href="angularScripts/ng-dialog/css/ngDialog.min.css">
-    <link rel="stylesheet" href="angularScripts/ng-dialog/css/ngDialog-theme-default.min.css">
-    <script src="angularScripts/ng-dialog/js/ngDialog.min.js"></script>
+    <!--<script src="angularScripts/angular.js"></script>-->
+    <!--<script type="text/javascript" src="angularScripts/angular-route.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    <!--<link rel="stylesheet" href="angularScripts/ng-dialog/css/ngDialog.min.css">-->
+    <!--<link rel="stylesheet" href="angularScripts/ng-dialog/css/ngDialog-theme-default.min.css">-->
+    <!--<script src="angularScripts/ng-dialog/js/ngDialog.min.js"></script>-->
 
 
     <!--<script type="text/javascript" src="components/login/LoginService.js"></script>-->
@@ -17,14 +19,10 @@
 </head>
 <body>
 <div class="header" ng-controller="mainController as mainCtrl">
-    <a href="#!/home">Add Quote</a>
-    <a href="#!/">Add Quote</a>
-    <a href="#/">Add Quote</a>
-
-
-
-    <li> <a ng-href="#/">Home</a></li>
+     <li> <a ng-href="#/">Home</a></li>
     <li> <a ng-href="#/login">Login</a></li>
 </div>
+<ng-view>
+</ng-view>
 </body>
 </html>
