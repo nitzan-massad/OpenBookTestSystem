@@ -5,6 +5,7 @@ app.factory('LoginService', ['$http',"$route", function($http,$route) {
     let service = {};
 
     service.isLoggedIn = false;
+    /*
     service.login = function(user) {
         return $http.post('/Login', user)
             .then(function(response) {
@@ -44,5 +45,6 @@ app.factory('LoginService', ['$http',"$route", function($http,$route) {
             service.UserName = "Guest"
         }
     }
+    */
     return service;
 }]);
