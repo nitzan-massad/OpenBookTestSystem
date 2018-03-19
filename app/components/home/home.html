@@ -1,19 +1,72 @@
-<!DOCTYPE html>
-<html>
-<body>
+<!--<!DOCTYPE html>-->
+<!--<html>-->
 
-<h2>My Courses</h2>
+<!--<head>-->
+    <!--<link href="home.css" rel="stylesheet" type="text/css">-->
+    <!--<script src=" https://code.angularjs.org/snapshot/angular.min.js"></script>-->
+    <!--<script src=" https://code.angularjs.org/snapshot/angular-animate.js"></script>-->
+
+    <!--<script src="homeController.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+
+<!--<h2>My Courses</h2>-->
 
 
-<div>
-    <span>
-        <button type="submit" class="btn btn-primary ">Join/Open Course</button>
-    </span>
+<!--<div>-->
+    <!--<span>-->
+        <!--<button type="submit" class="btn btn-primary ">Join/Open Course</button>-->
+    <!--</span>-->
 
- <span>
-     <input name="course_to_find" id="course" class="home-input" />
- </span>
+<!--</div>-->
+
+<!--<div ng-controller="homeController as ctrl">-->
+    <!--I have {{courses.length}} courses. They are:-->
+    <!--<input type="search" ng-model="q" placeholder="search course..." aria-label="filter course" class="form-control" />-->
+    <!--<ul class="example-animate-container">-->
+        <!--<li class="animate-repeat" ng-repeat="course in ctrl.courses| filter:q as results track by course.name">-->
+            <!--[{{$index + 1}}] {{ctrl.courses.name}} who is {{ctrl.courses.number}} years old.-->
+        <!--</li>-->
+        <!--<li class="animate-repeat" ng-if="results.length === 0">-->
+            <!--<strong>No results found...</strong>-->
+        <!--</li>-->
+    <!--</ul>-->
+<!--</div>-->
+
+<!--</body>-->
+<!--</html>-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example - example-ngRepeat-production</title>
+    <link href="home.css" rel="stylesheet" type="text/css">
+
+    <script src=" https://code.angularjs.org/snapshot/angular.min.js"></script>
+    <script src=" https://code.angularjs.org/snapshot/angular-animate.js"></script>
+    <!--<script src="homeController.js"></script>-->
+
+
+
+</head>
+<!--<body ng-app="homeApp">-->
+<div ng-controller="homeController">
+    I have {{friends.length}} friends. They are:
+    <input type="search" ng-model="q" placeholder="filter friends..." aria-label="filter friends" />
+    <ul class="example-animate-container">
+        <li class="animate-repeat" ng-repeat="friend in homeController.friends | filter:q as results track by friend.name">
+            [{{$index + 1}}] course name: {{friend.name}} {{friend.number}} .
+        </li>
+        <li class="animate-repeat" ng-if="results.length === 0">
+            <strong>No results found...</strong>
+        </li>
+    </ul>
 </div>
-
 </body>
 </html>
+
+<!--
+Copyright 2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

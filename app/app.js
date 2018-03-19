@@ -1,7 +1,7 @@
 /**
  * Created by nitzan on 21/02/18
  */
-let app = angular.module('myApp', ['ngRoute']);
+let app = angular.module('myApp', ['ngRoute','ngAnimate']);
 
 app.controller('mainController',  function () {
     let vm = this;
@@ -15,7 +15,7 @@ app.config( ['$routeProvider', function($routeProvider) {
         .when("/", {
             // templateUrl : "views/shop.html",
             templateUrl : "components/home/home.html",
-            controller : "mainController"
+            controller : "homeController"
         })
          .when("/login", {
             templateUrl : "components/login/login.html",
