@@ -1,18 +1,19 @@
 
 
 <div ng-controller="homeController as homeCtrl">
-    <h3> Hello {{homeCtrl.name}} and good morning,</h3>
+    <h3> Hello {{homeCtrl.name}},</h3>
     <h3> You have {{homeCtrl.courses.length}} courses</h3>
-    </br>Search:
-    <input type="search" ng-model="q" placeholder="filter courses..." aria-label="filter friends" />
+    </br>Search
+    <input type="search" class="input-course" ng-model="q" placeholder="filter courses..." aria-label="filter friends" />
     </br>
     </br>
-    <ul class="example-animate-container">
-        <p class="animate-repeat" ng-repeat="course in homeCtrl.courses | filter:q as results track by course.name">
-            [{{$index + 1}}] course name: {{course.name}} {{course.number}} .
+    <ul >
+        <p class="animate-repeat" ng-repeat="course in homeCtrl.courses | filter:q as results track by course.name && course.number">
+            [{{$index + 1}}] {{course.number}}  course name: {{course.name}}.
         </p>
         <a class="animate-repeat" ng-if="results.length === 0">
             <strong>No results found...</strong>
         </a>
     </ul>
+
 </div>
