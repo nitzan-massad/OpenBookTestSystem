@@ -1,20 +1,16 @@
 <body>
-<div  ng-controller="productDetailsController as PDC" background-color="green" >
+<div  ng-controller="courseDetailsController as couDCtrl" background-color="green" >
 
-    <img ng-src="{{PDC.product.Image}}"  alt="" height="250" style="text-align: center"/>
     <div >
         <br>
-        <h3 style="font-weight: bold">{{PDC.product.DrinkName}}</a></h3>
-        <p>{{PDC.product.Description}} </p>
-        <br>
-        <span ><b>Category:</b> {{PDC.product.CategoryName}} </span><br>
-        <span><b>Price:</b> {{PDC.product.Price}}</span><br>
-        <span ><b>Available Stock:</b> {{PDC.product.StockAmount}}</span><br>
-        <span ><b>Country:</b> {{PDC.product.Country}}</span><br>
-        <span ><b>Year:</b> {{PDC.product.Year}}</span><br>
-        <span ><b>ABV:</b> {{PDC.product.ABV}}</span><br>
-        <span ><b>Type:</b> {{PDC.product.Type}}</span><br>
-        <span ng-show="PDC.product.inCart" ><b>Quantity in cart:</b> {{PDC.product.amount}} items </span> <br>
+        <div class="animate-repeat" ng-repeat="course in couDCtrl.courses | filter:q as results track by course.courseName">
+            <img src="styles/{{couDCtrl.image}}"  alt="" height="100" style="text-align: center"/>
+            <h3 style="font-weight: bold">{{course.courseName}}</a></h3>
+            <p>{{course.courseNumber}} </p>
+           <br>
+          <span ><b>First exam period:</b> {{course.courseTestDate}} </span><br>
+          <span><b>Second exam period:</b> {{course.courseTestDateSecond}}</span><br>
+        </div>
         <ul >
             <div > </div>
         </ul>
