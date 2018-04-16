@@ -3,16 +3,15 @@
 <div ng-controller="homeController as homeCtrl">
     <h3> Hello {{homeCtrl.name}},</h3>
     <h3> You have {{homeCtrl.courses.length}} courses</h3>
-    <p>{{ homeCtrl.count }}</p>
     </br>Search
     <input type="search" class="input-course" ng-model="q" placeholder="filter courses..." aria-label="filter friends" />
     </br>
     </br>
     <ul >
         <div class="animate-repeat" ng-repeat="course in homeCtrl.courses | filter:q as results track by course.courseName && course.courseNumber">
-            <div class="div-course-display" style=" width: 600px; float: left;" ng-click="homeCtrl.count = homeCtrl.count + 1" href="#/login" >
-                <img src="styles/{{homeCtrl.image}}"  alt="" height="100" style="text-align: center"/>
-                <h3 style="font-weight: bold">{{course.courseName}}</a></h3>
+            <div class="div-course-display" style=" width: 600px; float: left;" ng-click="homeCtrl.openCoursePage(course.courseName)">
+                <img src="{{homeCtrl.image}}"  alt="" height="100" style="text-align: center"/>
+                <h3 style="font-weight: bold">{{course.courseName}}</h3>
                 <p>{{course.courseNumber}} </p>
                 <span ><b>First exam period:</b> {{course.courseTestDateFirst}} </span><br>
                 <span><b>Second exam period:</b> {{course.courseTestDateSecond}}</span>

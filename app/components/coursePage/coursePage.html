@@ -1,0 +1,21 @@
+<div ng-controller="coursePageController as coursePageCtrl">
+    <h3> course: {{coursePageCtrl.courseID}}</h3>
+
+    </br>Search
+    <input type="search" class="input-course" ng-model="q" placeholder="filter files..." aria-label="filter friends" />
+    </br>
+    </br>
+    <ul >
+        <div class="animate-repeat" ng-repeat="file in coursePageCtrl.files | filter:q as results track by file.fileName ">
+            <div class="div-file-display" style=" width: 300px; float: left;" ng-click="coursePageCtrl.openFile(file.fileURL)">
+                <img src="{{coursePageCtrl.image}}"  alt="" height="100" style="text-align: center"/>
+                <h3 style="font-weight: bold">{{file.fileName}}</h3>
+            </div>
+        </div>
+        <a class="animate-repeat" ng-if="results.length === 0">
+            <strong>No results found...</strong>
+        </a>
+    </ul>
+
+
+</div>
