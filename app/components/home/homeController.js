@@ -1,6 +1,6 @@
 
-app.controller('homeController', ['$location', '$window','coursePageService',
-    function($location, $window,coursePageService) {
+app.controller('homeController', ['$location', '$window','studentCoursePageService',
+    function($location, $window,studentCoursePageService) {
         let self=this;
         self.name = "Nitzan";
         self.image ="styles/folderImg.png";
@@ -11,7 +11,7 @@ app.controller('homeController', ['$location', '$window','coursePageService',
         ];
 
         self.openCoursePage = function (courseID) {
-            coursePageService.setCourseID(courseID)
+            studentCoursePageService.setCourseID(courseID)
             window.location.href = "#/coursePage";
         }
     }

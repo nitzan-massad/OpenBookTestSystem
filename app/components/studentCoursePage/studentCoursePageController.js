@@ -2,10 +2,10 @@
  * Created by nitzan on 16/04/18.
  */
 
-app.controller('coursePageController', ['$location', '$window','coursePageService',
-    function($location, $window,coursePageService) {
+app.controller('studentCoursePageController', ['$location', '$window','studentCoursePageService',
+    function($location, $window,studentCoursePageService) {
         let self=this;
-        self.courseID = coursePageService.getCourseID() ;
+        self.courseID = studentCoursePageService.getCourseID() ;
         self.image ="styles/pdfLogo.png";
         self.files= [
             {fileName:'first file', fileURL:'http://animalsoc.tau.ac.il/upload/articles/GFMSUE2627animals_society47_long.pdf'},
