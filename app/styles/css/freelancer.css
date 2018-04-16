@@ -386,3 +386,6 @@ div.div-course-display {
   margin-right: 10px;
   cursor: pointer;
 }
+div.div-file-display {
+  cursor: pointer;
+}
