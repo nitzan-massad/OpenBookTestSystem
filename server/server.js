@@ -1,7 +1,12 @@
 var express = require('express');
 var app = express();
-let DbUtils = require("./DbUtils.js");
+// let DbUtils = require("./DbUtils.js");
 let server = require("./server.js");
+var bodyParser = require('body-parser')
+let index = require("./routes/index.js");
+
+app.use(bodyParser.json);
+app.use(index);
 
 
 app.listen(8000, () => {
