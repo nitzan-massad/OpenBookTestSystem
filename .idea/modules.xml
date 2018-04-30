@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/OpenTestBookSystem.iml" filepath="$PROJECT_DIR$/OpenTestBookSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenBookTestSystem.iml" filepath="$PROJECT_DIR$/OpenBookTestSystem.iml" />
     </modules>
   </component>
 </project>
