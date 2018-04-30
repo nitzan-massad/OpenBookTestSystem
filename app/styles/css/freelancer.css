@@ -389,3 +389,8 @@ div.div-course-display {
 div.div-file-display {
   cursor: pointer;
 }
+
+h3.lecturerCoursePageHeadLine{
+  align: left;
+  margin-left: 20px;
+}
