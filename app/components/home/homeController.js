@@ -8,7 +8,7 @@ app.controller('homeController', ['$location', '$window',
             {name:'Algorythms', number:'372-0-111'},
             {name:'Information Retrieval', number:'372-0-222'}
         ];
-        console.log("avi");
+        console.log("avi ron");
         // self.avi = "avi ron";
 
     }
