@@ -18,6 +18,8 @@ var truckRoutes = require('./truckRoutes');
 var globalRoutes = require('./globalRoutes');
 
 var studentRoutes = require('./studentRoutes');
+var courseRoute = require('./courseRoute');
+
 
 // controllers
 var requestController = require('../controllers/requestController');
@@ -33,5 +35,7 @@ router.use('/truck/', truckRoutes);
 router.use('/global/', globalRoutes);
 
 router.use('/student',studentRoutes);
+
+router.use('/course', courseRoute);
 
 module.exports = router;

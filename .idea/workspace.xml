@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa9e32b7-6278-470b-a9f7-47eee125507e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/production.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system server/db/models/student/studentModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system server/api/v1/controllers/courseController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system server/api/v1/validators/courseValidator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system server/db/models/course/courseModel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/DbUtils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/lib/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system server/api/v1/routes/v1Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/system server/api/v1/routes/v1Routes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,88 +19,90 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5156137">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="driverModel.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/system server/db/models/driver/driverModel.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-516">
-                  <caret lean-forward="true" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="driverValidator.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/system server/api/v1/validators/driverValidator.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="320">
-                  <caret line="66" column="53" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="53" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="driverController.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/driverController.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-227">
-                  <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="driverHandler.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/driverHandler.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="470">
-                  <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="studentModel.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/system server/db/models/student/studentModel.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="studentValidator.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/system server/api/v1/validators/studentValidator.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="studentController.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/studentController.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="400">
-                  <caret line="45" column="13" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="45" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="studentHandler.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="275">
-                  <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="courseRoute.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="courseValidator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system server/api/v1/validators/courseValidator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="offerModel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system server/db/models/dispatcher/offerModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-378" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userHandler.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/userHandler.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1516" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="globalHandler.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/globalHandler.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="courseController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/courseController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="courseHandler.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="23" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="studentHandler.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="v1Routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/v1Routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="driverHandler.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/driverHandler.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1492">
+              <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -142,6 +138,12 @@
         <option value="$PROJECT_DIR$/system server/api/v1/controllers/studentController.js" />
         <option value="$PROJECT_DIR$/system server/api/v1/validators/studentValidator.js" />
         <option value="$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js" />
+        <option value="$PROJECT_DIR$/system server/db/models/course/courseModel.js" />
+        <option value="$PROJECT_DIR$/system server/api/v1/controllers/courseController.js" />
+        <option value="$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js" />
+        <option value="$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js" />
+        <option value="$PROJECT_DIR$/system server/api/v1/routes/v1Routes.js" />
+        <option value="$PROJECT_DIR$/system server/api/v1/validators/courseValidator.js" />
       </list>
     </option>
   </component>
@@ -239,14 +241,6 @@
               <item name="system server" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="v1" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenBookTestSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenBookTestSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="system server" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
               <item name="validators" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -261,22 +255,6 @@
               <item name="system server" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenBookTestSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenBookTestSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="system server" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenBookTestSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenBookTestSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="system server" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="truck" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -294,6 +272,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
@@ -372,12 +351,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525101823023</updated>
-      <workItem from="1525101825826" duration="14437000" />
+      <workItem from="1525101825826" duration="19098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14437000" />
+    <option name="totallyTimeSpent" value="19098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,6 +369,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32905984" />
@@ -399,12 +379,12 @@
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5007153" side_tool="true" weight="0.21652421" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49928468" visible="true" weight="0.22792023" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49928468" visible="true" weight="0.12535612" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32905984" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.015021459" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2739628" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -419,6 +399,35 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49928468" weight="0.12535612" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.24964234" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.17811158" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32905984" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32905984" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5007153" side_tool="true" weight="0.21652421" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32905984" />
+      <window_info anchor="right" id="Debug" order="9" weight="0.39127326" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -465,8 +474,68 @@
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js</url>
+          <line>21</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js</url>
+          <line>22</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/system server/api/v1/validators/courseValidator.js</url>
+          <line>22</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/system server/api/v1/validators/courseValidator.js</url>
+          <line>28</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/system server/api/v1/controllers/courseController.js</url>
+          <line>20</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js</url>
+          <line>19</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js</url>
+          <line>14</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js</url>
+          <line>6</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/system server/api/v1/validators/courseValidator.js</url>
+          <line>21</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="38" />
+      <option name="time" value="49" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -507,9 +576,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/userHandler.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/userController.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -595,20 +661,6 @@
     <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/driverRoutes.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/studentRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/db/models/student/studentModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/driverController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-227">
@@ -630,31 +682,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/studentRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/system server/api/v1/validators/studentValidator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="230">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/db/models/student/studentModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/studentController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="45" column="13" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="45" selection-end-column="13" />
+        <state relative-caret-position="118">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/driverHandler.js">
+    <entry file="file://$PROJECT_DIR$/system server/db/models/course/courseModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+        <state relative-caret-position="255">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/courseController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="23" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+        <state relative-caret-position="135">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/v1Routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/api/v1/validators/courseValidator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/db/models/dispatcher/offerModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/userHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1516" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/globalHandler.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/driverHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1492">
+          <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
         </state>
       </provider>
     </entry>
