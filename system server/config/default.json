@@ -5,7 +5,7 @@
             "user": "",
             "password": "",
             "port": "27017",
-            "database": "TruckNow"
+            "database": "OpenBookTestSystem"
         },
         "currentVersion": 1
     },
@@ -21,32 +21,5 @@
         "ForgotPassword": {
             "hoursExpiry": 24
         }
-    },
-    "Notifications":
-    {
-        "IOS":
-        {
-            "isProduction": false,
-            "keyName" : "AuthKey_ACAMPD3LYZ.p8",
-            "keyId"   : "ACAMPD3LYZ",
-            "teamId"  : "72Z73DFCD9",
-            "topic"   : "moveo.TruckNow"
-        },
-        
-        "Android" :
-        {
-            "googleServerAPIkey" : "AIzaSyAcbhCu9rFTJl3ZRv94LLizPfJ03mRW0sk",
-            "PackageName"   : "com.moveosoftware.trucknow"
-        }
-    },
-    "Firebase": {
-        "Admin": {
-            "keyPath": "trucknow-dev-firebase-adminsdk-wvn3a-1852689dbd",
-            "databaseURL":"https://trucknow-dev.firebaseio.com/"
-        }
-    },
-    "GoogleMaps":{
-        "API_KEY":"AIzaSyA_F52my9qOg6GvKFd4aXmc9-XxmDtyjG8"
     }
-    
 }
