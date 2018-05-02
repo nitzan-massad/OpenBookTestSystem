@@ -1,0 +1,21 @@
+<body>
+<div  ng-controller="courseDetailsController as couDCtrl" background-color="green" >
+
+    <div >
+        <br>
+        <div class="animate-repeat" ng-repeat="course in couDCtrl.courses | filter:q as results track by course.courseName">
+           <div style=" width: 600px; float: left;">
+            <img src="styles/{{couDCtrl.image}}"  alt="" height="100" style="text-align: center"/>
+            <h3 style="font-weight: bold">{{course.courseName}}</a></h3>
+            <p>{{course.courseNumber}} </p>
+           <br>
+          <span ><b>First exam period:</b> {{course.courseTestDate}} </span><br>
+          <span><b>Second exam period:</b> {{course.courseTestDateSecond}}</span><br>
+           </div>
+        </div>
+        <ul >
+            <div > </div>
+        </ul>
+    </div>
+</div>
+</body>

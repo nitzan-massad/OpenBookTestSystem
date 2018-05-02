@@ -52,3 +52,13 @@
 /*Use of this source code is governed by an MIT-style license that*/
 /*can be found in the LICENSE file at http://angular.io/license*/
 /**!*/
+
+.input-course{
+    border-radius: 0.3rem;
+    border: 1px solid #ced4da;
+    padding: 0.30rem
+}
+
+.center-left{
+    align-self: right;
+}

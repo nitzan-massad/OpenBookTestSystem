@@ -165,31 +165,31 @@ section h2 {
   }
 }
 
-header.masthead {
+body.masthead {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
 }
 
-header.masthead h1 {
+body.masthead h1 {
   font-size: 3rem;
   line-height: 3rem;
 }
 
-header.masthead h2 {
+body.masthead h2 {
   font-size: 1.3rem;
   font-family: 'Lato';
 }
 
 @media (min-width: 992px) {
-  header.masthead {
+  body.masthead {
     padding-top: calc(6rem + 106px);
     padding-bottom: 6rem;
   }
-  header.masthead h1 {
+  body.masthead h1 {
     font-size: 4.75em;
     line-height: 4rem;
   }
-  header.masthead h2 {
+  body.masthead h2 {
     font-size: 1.75em;
   }
 }
@@ -361,7 +361,7 @@ a:focus, a:hover, a:active {
 
 .btn-primary {
   background-color: #18BC9C;
-  border-color: #18BC9C;
+  border-color: #128f76;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -377,4 +377,20 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+div.div-course-display {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  margin-top: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+div.div-file-display {
+  cursor: pointer;
+}
+
+h3.lecturerCoursePageHeadLine{
+  align: left;
+  margin-left: 20px;
 }
