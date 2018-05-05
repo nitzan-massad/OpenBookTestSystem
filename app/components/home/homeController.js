@@ -10,6 +10,7 @@ app.controller('homeController', ['$location', '$window','studentCoursePageServi
             {_id:'983276',courseName:'Information Retrieval', courseNumber:'372-0-222',courseTestDateFirst:'1.1.18',courseTestDateSecond:'1.2.18'}
         ];
 
+
         self.openCoursePage = function (courseID,courseName) {
             homeService.setCourseID(courseID,courseName);
             self.userType = homeService.getUserType();

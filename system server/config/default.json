@@ -1,0 +1,25 @@
+{
+    "MongoDB": {
+        "Configurations": {
+            "host": "localhost",
+            "user": "",
+            "password": "",
+            "port": "27017",
+            "database": "OpenBookTestSystem"
+        },
+        "currentVersion": 1
+    },
+
+   
+    "Security": {
+        "Request": {
+            "Header": {
+                "key": "TruckNow-App-Auth",
+                "value": "HoJ20bK27$vj5WOmJ11hEy0400FC1988"
+            }
+        },
+        "ForgotPassword": {
+            "hoursExpiry": 24
+        }
+    }
+}
