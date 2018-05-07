@@ -16,7 +16,7 @@ const saltRounds = 10;
 var jsUtils = require('../../../utils/jsUtils');
 // var firebaseUtils = require("./../../../utils/firebaseUtils");
 
-var googleDistance = require('google-distance-matrix');
+//var googleDistance = require('google-distance-matrix');
 // var GoogleMapAPIKey = require("config").get("GoogleMaps.API_KEY");
 // googleDistance.key(GoogleMapAPIKey);
 

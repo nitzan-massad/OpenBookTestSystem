@@ -14,7 +14,7 @@ var async = require('async');
 var bcrypt = require('bcrypt');
 const saltRounds = 10;
 
-const isCoordinates = require('is-coordinates');
+//const isCoordinates = require('is-coordinates');
 
 function register(req, res, next)
 {
