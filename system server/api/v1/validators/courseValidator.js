@@ -31,18 +31,19 @@ function addCourse(req, res, next)
     next();
 }
 
-function addFile(req, res, next){
+function addFiles(req, res, next){
     var userInCourse={};
     userInCourse["courseId"]=req.body.courseId;
     userInCourse["userId"]=req.body.userId;
     userInCourse["files"]=req.body.files;
 
-
+    res.locals.details=userInCourse;
+    next();
 
 }
 
 
 module.exports = {
     addCourse,
-    addFile
+    addFiles
 };

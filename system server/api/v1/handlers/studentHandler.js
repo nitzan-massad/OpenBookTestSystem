@@ -39,8 +39,17 @@ function login(username, password, callback) {
             var isCorrectPassword = bcrypt.compareSync(password, student.password);
             if (isCorrectPassword) {
                 console.log("user: " + student.firstName + " " + student.lastName + " successfully logged in");
-                student['success']=true;
-                return callback(null, student);
+                var toReturn= {
+                    "_id": student._id,
+                    "firstName": student.firstName,
+                    "lastName": student.lastName,
+                    "username": student.username,
+                    // "password": student.password,
+                    "email": student.email,
+                    "status": student.status,
+                    "succes":true
+                }
+                return callback(null, toReturn);
             }
             else {
                 var msg = 'verification failed: wrong username or password';

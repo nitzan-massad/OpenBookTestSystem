@@ -37,10 +37,15 @@ function register(req, res, next)
 
 function login(req, res, next){
     if ((!req.body.username) || (!req.body.password)){
-        var msg="invalid user name or password";
-        error(msg);
-        next(new Error(msg));
+        // var msg="invalid user name or password";
+        // error(msg);
+        // next(new Error(msg));
         // next({succes:false})
+        var errorJson= {
+            "succes":false
+        }
+        // next(errorJson)
+        res.json(errorJson)
 
     }
     next()
