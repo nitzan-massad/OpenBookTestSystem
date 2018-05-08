@@ -25,7 +25,8 @@ function addCourse(userDetails, callback){
 
 function addFiles(details, callback){
     // var userInCourse= new userInCourse(details);
-    userInCourse.findOne
+
+   /* userInCourse.findOne
             ({"user_id":details.courseId
             ,"course_id":details.userId},function (err, userInCourse){
                 if (err){
@@ -39,8 +40,9 @@ function addFiles(details, callback){
                 }
                 else{
                 userInCourse
-    })
 
+    })
+*/
 }
 
 

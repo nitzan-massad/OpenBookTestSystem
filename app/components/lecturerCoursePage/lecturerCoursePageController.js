@@ -6,8 +6,8 @@ app.controller('lecturerCoursePageController', ['$location', '$window','lecturer
     function($location, $window,lecturerCoursePageService,homeService,$timeout   ) {
         let self=this;
         //console.log("ronTonBon")
-        self.courseID = homeService.getCourseName();
-
+        self.courseName = homeService.courseName;
+        self.courseNumber = homeService.courseNumber;
 
         self.sendAMesssage = function(){
            //    console.log(self.Message);

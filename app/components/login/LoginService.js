@@ -5,12 +5,16 @@ app.factory('LoginService', ['$http',"$route", function($http,$route) {
     let service = {};
 
     service.isLoggedIn = false;
-    /*
+    self.reqTopFiveUrl ="http://localhost:3000/api/v1/student/login";
     service.login = function(user) {
-        return $http.post('/Login', user)
+        console.log(user);
+
+        return $http.post(self.reqTopFiveUrl, user)
+          return $http(req)
             .then(function(response) {
+
                 let data = response.data;
-                if(data.Status===true) {
+                if(data.succes===true) {
                     service.isLoggedIn = true;
                     return Promise.resolve(response);
                 }
@@ -18,6 +22,7 @@ app.factory('LoginService', ['$http',"$route", function($http,$route) {
                     return Promise.reject();
             })
             .catch(function () {
+                console.log("excption");
                 return Promise.reject();
             });
     };
@@ -45,6 +50,5 @@ app.factory('LoginService', ['$http',"$route", function($http,$route) {
             service.UserName = "Guest"
         }
     }
-    */
     return service;
 }]);

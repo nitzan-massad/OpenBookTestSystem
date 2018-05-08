@@ -10,7 +10,7 @@
                     <div class="    floating-label-form-group controls mb-0 pb-2" ng-class="{ 'has-error': loginForm.username.$dirty && loginForm.username.$error.required }">
                         <!--<label for="username">Username</label>-->
                         <input type="text" name="username" id="username"
-                               ng-model="loginCtrl.user.UserName" placeholder="enter name" required/>
+                               ng-model="loginCtrl.user.username" placeholder="enter name" required/>
 
                     </div>
                     <span ng-show="loginForm.username.$dirty && loginForm.username.$error.required"
@@ -21,7 +21,7 @@
                     <div class="form-group floating-label-form-group controls mb-0 pb-2" ng-class="{ 'has-error': loginForm.password.$dirty && loginForm.password.$error.required }">
                         <!--<label for="password">Password</label>-->
                         <input type="password" name="password" id="password"
-                               ng-model="loginCtrl.user.Password" ng-required="true" placeholder="enter password" required/>
+                               ng-model="loginCtrl.user.password" ng-required="true" placeholder="enter password" required/>
 
                     </div>
                     <span ng-show="loginForm.password.$dirty && loginForm.password.$error.required"

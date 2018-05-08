@@ -1,5 +1,5 @@
 <div ng-controller="studentCoursePageController as coursePageCtrl">
-    <h3> course: {{coursePageCtrl.courseID}}</h3>
+    <h3> Course name:&nbsp;&nbsp;&nbsp; {{coursePageCtrl.courseName}}&nbsp;&nbsp;&nbsp;{{ coursePageCtrl.courseNumber}}</h3>
 
     </br>Search
     <input type="search" class="input-course" ng-model="q" placeholder="filter files..." aria-label="filter friends" />
@@ -7,9 +7,9 @@
     </br>
     <ul >
         <div class="animate-repeat" ng-repeat="file in coursePageCtrl.files | filter:q as results track by file.fileName ">
-            <div class="div-file-display" style=" width: 300px; float: left;" ng-click="coursePageCtrl.openFile(file.fileURL)">
-                <img src="{{coursePageCtrl.image}}"  alt="" height="100" style="text-align: center"/>
-                <h3 style="font-weight: bold">{{file.fileName}}</h3>
+            <div class="div-file-display" style=" width: 300px; float: left; margin-left: -20px; margin-right: -20px; margin-bottom: 20px  " ng-click="coursePageCtrl.openFile(file.fileURL)" >
+                <img src="{{coursePageCtrl.image}}"  alt="" height="70" style="text-align: center"/>
+                <h5 style="font-weight: bold">{{file.fileName}}</h5>
             </div>
         </div>
         <a class="animate-repeat" ng-if="results.length === 0">
