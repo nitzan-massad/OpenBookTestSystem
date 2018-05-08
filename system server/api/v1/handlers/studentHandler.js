@@ -39,6 +39,7 @@ function login(username, password, callback) {
             var isCorrectPassword = bcrypt.compareSync(password, student.password);
             if (isCorrectPassword) {
                 console.log("user: " + student.firstName + " " + student.lastName + " successfully logged in");
+                student['success']=true;
                 return callback(null, student);
             }
             else {

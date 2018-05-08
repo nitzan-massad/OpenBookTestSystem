@@ -40,6 +40,8 @@ function login(req, res, next){
         var msg="invalid user name or password";
         error(msg);
         next(new Error(msg));
+        // next({succes:false})
+
     }
     next()
 }

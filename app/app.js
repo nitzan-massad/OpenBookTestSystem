@@ -24,6 +24,15 @@ app.config( ['$routeProvider', function($routeProvider) {
             templateUrl : "components/courseDetails/courseDetails.html",
             controller : "courseDetailsController"
         })
+        .when("/studentCoursePage", {
+            templateUrl : "components/studentCoursePage/studentCoursePage.html",
+            controller : "studentCoursePageController"
+        })
+        .when("/lecturerCoursePage", {
+            templateUrl : "components/lecturerCoursePage/lecturerCoursePage.html",
+            controller : "lecturerCoursePageController"
+        })
+
         .otherwise({redirect: '/',
         });
 

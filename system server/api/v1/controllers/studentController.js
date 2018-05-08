@@ -39,7 +39,7 @@ function login(req, res, next) {
         req.body.password,
         function (err, user){
             if(err){
-                next(err)
+                next({succes:false})
             }
             else{
                 res.json(user)
