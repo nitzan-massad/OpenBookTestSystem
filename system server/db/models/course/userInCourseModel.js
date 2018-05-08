@@ -11,8 +11,8 @@ var Schema = mongoose.Schema,
     ObjectId = Schema.ObjectId;
 
 var userInCourse = new Schema({
-    userId: [ObjectId],
-    courseId: [ObjectId],
+    userId: {type:ObjectId,  unique: true},
+    courseId:{type:ObjectId, unique: true},
     files: [{
         file:{
             fileName:String,

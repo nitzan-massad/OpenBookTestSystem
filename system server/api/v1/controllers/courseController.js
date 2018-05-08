@@ -28,6 +28,17 @@ function addCourse(req, res, next) {
     });
 }
 
+function addUserToCourse(req,res,next){
+    courseHandler.addUserToCourse(res.locals.details, function (err,userInCourse){
+        if(err){
+            next(err)
+        }
+        else{
+            res.json({userInCourse})
+        }
+    });
+}
+
 function addFiles(req,res,next){
     courseHandler.addFiles(res.locals.details, function (err,files){
         if(err){
@@ -44,7 +55,8 @@ function addFiles(req,res,next){
 module.exports =
     {
         addCourse,
-        addFiles
+        addFiles,
+        addUserToCourse
 
     };
 

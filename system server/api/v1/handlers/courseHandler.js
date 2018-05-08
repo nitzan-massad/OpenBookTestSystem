@@ -7,6 +7,7 @@ var debug = require('debug');
 var mongoose = require('mongoose'),
     course = require('../../../db/models/course/courseModel');
     userInCourse = require('../../../db/models/course/userInCourseModel');
+    student = require('../../../db/models/student/studentModel');
 
 
 
@@ -23,29 +24,70 @@ function addCourse(userDetails, callback){
     });
 };
 
+function addUserToCourse(details,cb) {
+    student.findOne({_id: details.userId}, function (err, student) {
+        if (err) {
+            callback(err)
+        }
+        else if (!student) {
+            console.log("wrong student id");
+        }
+        else {
+            var newUserInCourse = new userInCourse(details);
+            newUserInCourse.save(function (err, userInCourse) {
+                if (err) {
+                    console.log("error adding user to: " + err.message);
+                    return cb(err);
+                }
+                else {
+                    return cb(null, userInCourse);
+                }
+
+            });
+        }
+    });
+}
+
 function addFiles(details, callback){
     // var userInCourse= new userInCourse(details);
-    userInCourse.findOne
-            ({"user_id":details.courseId
-            ,"course_id":details.userId},function (err, userInCourse){
-                if (err){
-                    callback(err)
+    student.findOne({_id: details.userId},function(err, student) {
+        if (err) {
+            callback(err)
+        }
+        else if (!student) {
+            console.log("wrong student id");
+        }
+        else{
+            course.findOne({_id: details.courseId}, function (err, course) {
+                if (course) {
+                    // userInCourse.findOne({userId: details.userId}, function (err, userInCourse) {
+                    // // userInCourse.findOne({userId:details.userId}, function (err, userInCourse) {
+                    //     if (userInCourse) {
+                    //         userInCourse.files.push(details.files);
+                    userInCourse.findOneAndUpdate({userId: details.userId, courseId: details.courseId },{files:details.files},function(err,userInCourse){
+                        if (userInCourse) {
+                                console.log(userInCourse);
+                        }
+                        else if (err){
+                            console.log(err.message);
+                        }
+                        else if(!userInCourse){
+                            console.log("fghfgh");
+                        }
+                    });
                 }
-                else if (!userInCourse){
-                    var msg = "no such course or user id";
-                    error(msg);
-                    callback(new Error(msg));
-                }
-                }
-                else{
-                userInCourse
-    })
+            });
 
+        }
+
+
+    });
 }
 
 
 module.exports = {
     addCourse,
-    addFiles
+    addFiles,
+    addUserToCourse
 
 };

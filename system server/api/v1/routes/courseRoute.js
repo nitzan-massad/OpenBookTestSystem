@@ -25,7 +25,14 @@ router.route('/addCourse')
 router.route('/addFiles')
     .post(
         courseValidator.addFiles,
-        courseController.addFiles); // Register new course
+        courseController.addFiles);
+
+
+router.route('/addUserToCourse')
+    .post(
+        courseValidator.addUserToCourse,
+        courseController.addUserToCourse);
+
 
 
 module.exports = router;

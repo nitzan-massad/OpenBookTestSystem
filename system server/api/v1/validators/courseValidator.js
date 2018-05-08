@@ -31,6 +31,17 @@ function addCourse(req, res, next)
     next();
 }
 
+function addUserToCourse(req,res,next){
+    var userInCourse={};
+    userInCourse["courseId"]=req.body.courseId;
+    userInCourse["userId"]=req.body.userId;
+    // userInCourse["files"]=req.body.files;
+
+    res.locals.details=userInCourse;
+    next();
+
+}
+
 function addFiles(req, res, next){
     var userInCourse={};
     userInCourse["courseId"]=req.body.courseId;
@@ -45,5 +56,6 @@ function addFiles(req, res, next){
 
 module.exports = {
     addCourse,
-    addFiles
+    addFiles,
+    addUserToCourse
 };
