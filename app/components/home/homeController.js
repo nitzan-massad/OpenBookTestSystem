@@ -3,7 +3,7 @@ app.controller('homeController', ['$location', '$window','studentCoursePageServi
     function($location, $window,studentCoursePageService,homeService) {
         let self=this;
         self.name = homeService.firstName;
-        self.image ="styles/folderImg.png";
+        self.image ="app/styles/folderImg.png";
         self.courses = [
             {_id:'983274',courseName:'Advanced topics in cyber security', courseNumber:'372-0-000',courseTestDateFirst:'12.1.18',courseTestDateSecond:'12.2.18'},
             {_id:'983275',courseName:'Algorythms', courseNumber:'372-0-111',courseTestDateFirst:'11.1.18',courseTestDateSecond:'11.2.18'},
