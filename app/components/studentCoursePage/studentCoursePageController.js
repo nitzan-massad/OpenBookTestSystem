@@ -7,7 +7,7 @@ app.controller('studentCoursePageController', ['$location', '$window','studentCo
         let self=this;
         self.courseName = homeService.courseName ;
         self.courseNumber = homeService.courseNumber ;
-        self.image ="styles/pdfLogo.png";
+        self.image ="app/styles/pdfLogo.png";
         self.files= [
             {fileName:'first file', fileURL:'http://animalsoc.tau.ac.il/upload/articles/GFMSUE2627animals_society47_long.pdf'},
             {fileName:'second file', fileURL:'http://animalsoc.tau.ac.il/upload/articles/GFMSUE2627animals_society47_long.pdf'},
