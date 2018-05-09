@@ -36,11 +36,15 @@ function register(req, res, next)
 
 
 function login(req, res, next){
+    //console.log("test-1");
+    //console.log(req.body);
     if ((!req.body.username) || (!req.body.password)){
+        console.log("test0")
         var msg="invalid user name or password";
         error(msg);
         next(new Error(msg));
     }
+    //console.log("test1")
     next()
 }
 

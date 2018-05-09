@@ -13,23 +13,23 @@ app.config(['$locationProvider', function($locationProvider) {
 app.config( ['$routeProvider', function($routeProvider) {
     $routeProvider
         .when("/", {
-            templateUrl : "components/home/home.html",
+            templateUrl : "app/components/home/home.html",
             controller : "homeController"
         })
          .when("/login", {
-            templateUrl : "components/login/login.html",
+            templateUrl : "app/components/login/login.html",
             controller : "LoginController"
         })
         .when("/try_component", {
-            templateUrl : "components/courseDetails/courseDetails.html",
+            templateUrl : "app/components/courseDetails/courseDetails.html",
             controller : "courseDetailsController"
         })
         .when("/studentCoursePage", {
-            templateUrl : "components/studentCoursePage/studentCoursePage.html",
+            templateUrl : "app/components/studentCoursePage/studentCoursePage.html",
             controller : "studentCoursePageController"
         })
         .when("/lecturerCoursePage", {
-            templateUrl : "components/lecturerCoursePage/lecturerCoursePage.html",
+            templateUrl : "app/components/lecturerCoursePage/lecturerCoursePage.html",
             controller : "lecturerCoursePageController"
         })
 

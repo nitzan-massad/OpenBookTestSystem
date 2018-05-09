@@ -28,11 +28,23 @@ function addCourse(req, res, next) {
     });
 }
 
+function addFiles(req,res,next){
+    courseHandler.addFiles(res.locals.details, function (err,files){
+        if(err){
+            next(err)
+        }
+        else{
+            res.json({files})
+        }
+    });
+}
+
 
 
 module.exports =
     {
-        addCourse
+        addCourse,
+        addFiles
 
     };
 

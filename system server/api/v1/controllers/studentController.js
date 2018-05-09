@@ -34,12 +34,18 @@ function register(req, res, next) {
  * @param {*} next
  */
 function login(req, res, next) {
+
+    //console.log("test 2 ")
     studentHandler.login(
         req.body.username,
         req.body.password,
         function (err, user){
             if(err){
-                next(err)
+                var errorJson= {
+                    "succes":false
+                }
+                // next(errorJson)
+                res.json(errorJson)
             }
             else{
                 res.json(user)

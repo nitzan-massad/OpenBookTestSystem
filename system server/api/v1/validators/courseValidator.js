@@ -12,6 +12,8 @@ var mongoose = require('mongoose'),
     savedOffer = require('../../../db/models/driver/savedOfferModel'),
 
     course = require ('../../../db/models/course/courseModel');
+// userInCourse = require ('../../../db/models/course/courseModel');
+
 
 var async = require('async');
 var bcrypt = require('bcrypt');
@@ -29,8 +31,19 @@ function addCourse(req, res, next)
     next();
 }
 
+function addFiles(req, res, next){
+    var userInCourse={};
+    userInCourse["courseId"]=req.body.courseId;
+    userInCourse["userId"]=req.body.userId;
+    userInCourse["files"]=req.body.files;
+
+    res.locals.details=userInCourse;
+    next();
+
+}
 
 
 module.exports = {
-    addCourse
+    addCourse,
+    addFiles
 };

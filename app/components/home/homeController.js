@@ -2,18 +2,20 @@
 app.controller('homeController', ['$location', '$window','studentCoursePageService','homeService',
     function($location, $window,studentCoursePageService,homeService) {
         let self=this;
-        self.name = "Nitzan";
+        self.name = homeService.firstName;
         self.image ="styles/folderImg.png";
         self.courses = [
             {_id:'983274',courseName:'Advanced topics in cyber security', courseNumber:'372-0-000',courseTestDateFirst:'12.1.18',courseTestDateSecond:'12.2.18'},
             {_id:'983275',courseName:'Algorythms', courseNumber:'372-0-111',courseTestDateFirst:'11.1.18',courseTestDateSecond:'11.2.18'},
-            {_id:'983276',courseName:'Information Retrieval', courseNumber:'372-0-222',courseTestDateFirst:'1.1.18',courseTestDateSecond:'1.2.18'}
+            {_id:'983276',courseName:'Information Retrieval', courseNumber:'372-0-222',courseTestDateFirst:'1.1.18',courseTestDateSecond:'1.2.18'},
+            {_id:'983277',courseName:'Algorythms12', courseNumber:'372-0-333',courseTestDateFirst:'13.1.18',courseTestDateSecond:'11.2.18'},
+            {_id:'983278',courseName:'Information Retrieval12', courseNumber:'372-0-444',courseTestDateFirst:'15.1.18',courseTestDateSecond:'1.2.18'}
         ];
 
 
-        self.openCoursePage = function (courseID,courseName) {
-            homeService.setCourseID(courseID,courseName);
-            self.userType = homeService.getUserType();
+        self.openCoursePage = function (courseID,courseName,courseNumber) {
+            homeService.setCourseID(courseID,courseName,courseNumber);
+            self.userType = homeService.userType;
             //console.log(self.userType);
             switch(self.userType) {
                 case 'admin':

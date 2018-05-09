@@ -16,7 +16,12 @@ var Student = new Schema({
         lastName: String,
         username: { type: String, required: true, unique: true },
         password: { type: String, required: true },
-        status: { type: String, required: true },
+        // status: { type: String, required: true },
+        status:{
+            type: String,
+                enum: ['lecturer', 'student','admin'],
+                default: 'student'
+        },
         email: String
     });
 
