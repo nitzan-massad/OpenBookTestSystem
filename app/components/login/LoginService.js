@@ -5,11 +5,11 @@ app.factory('LoginService', ['$http',"$route", function($http,$route) {
     let service = {};
 
     service.isLoggedIn = false;
-    self.reqTopFiveUrl ="http://localhost:3000/api/v1/student/login";
+    self.loginUrl ="http://localhost:3000/api/v1/student/login";
     service.login = function(user) {
-        console.log(user);
+        //console.log(user);
 
-        return $http.post(self.reqTopFiveUrl, user)
+        return $http.post(self.loginUrl, user)
           return $http(req)
             .then(function(response) {
 

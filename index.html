@@ -22,13 +22,13 @@
     <script src="app/components/courseDetails/courseDetailsController.js"></script>
     <script src="app/components/studentCoursePage/studentCoursePageController.js"></script>
     <script src="app/components/lecturerCoursePage/lecturerCoursePageController.js"></script>
-
+    <script src="app/components/mailBox/mailBoxController.js"></script>
     <!-- services-->
     <script src="app/components/home/homeService.js"></script>
     <script src="app/components/login/LoginService.js"></script>
     <script src="app/components/studentCoursePage/studentCoursePageService.js"></script>
     <script src="app/components/lecturerCoursePage/lecturerCoursePageService.js"></script>
-
+    <script src="app/components/mailBox/mailBoxService.js"></script>
     <!--our css pages-->
     <link href="app/components/home/home.css" rel="stylesheet">
 
@@ -53,14 +53,21 @@
 <div class="header" ng-controller="mainController as mainCtrl">
 
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+        <a  href="#/mailBox">
+        <img src="{{mainCtrl.mail}}"  alt="" height="50" style="text-align: left; margin-right: 5%"   />
+        </a>
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Open test System</a>
+            <a class="navbar-brand js-scroll-trigger" href="#/">Open test System</a>
             <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fa fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <img src="{{app/styles/pdfLogo.png}}"  alt="" height="70" style="text-align: center"/>
+                    </li>
                     <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#/">Home</a>
                     </li>

@@ -17,6 +17,7 @@ app.factory('homeService', ['$http', function($http) {
         console.log(response)
         service.userType =response.data.status;
         service.firstName = response.data.firstName;
+        service.userId = response.data._id;
     }
     return service ;
 }]);
