@@ -1,18 +1,22 @@
-<div ng-controller="mailBoxController as mailBoxCtrl">
+<div ng-controller="mailBoxController as mailBoxCtrl" style="margin-top: -60px; ">
 
-    <h3>Mail Box:</h3>
+    <h3>Mail Box</h3>
+    <br>
+    <br>
+    <br>
+
     <ul >
-        <table align="center" width="90%">
+        <table class ="mailBoxTable"  align="center" >
             <thead>
             <tr>
-                <th> </th>
+                <th><h2 style="margin-left: 30%">#</h2></th>
                 <th> <u><h2>Course</h2></u></th>
                 <th><u><h2>Subject</h2></u></th>
                 <th><u><h2>Message</h2></u></th>
             </tr>
             </thead>
             <tr ng-repeat="message in mailBoxCtrl.messages ">
-                <td><img ng-src="{{message.isRead== false && 'app/styles/dot_red.png'}}"  alt="" height="20" style="text-align: right"/></td>
+                <td ><img ng-src="{{message.isRead== false && 'app/styles/dot_red.png'}}"  alt="" height="20" style="text-align: center; margin-left: 30%"/></td>
                 <td > <h4 >{{message.course}}</h4></td>
                 <td><h4>{{message.subject}}</h4></td>
                 <td><h4>{{message.message}}</h4></td>

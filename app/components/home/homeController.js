@@ -2,7 +2,7 @@
 app.controller('homeController', ['$location', '$window','studentCoursePageService','homeService',
     function($location, $window,studentCoursePageService,homeService) {
         let self=this;
-        self.name = homeService.firstName;
+        self.name = homeService.getCookieInfo("firstName");
         self.image ="app/styles/folderImg.png";
         self.courses = [
             {_id:'983274',courseName:'Advanced topics in cyber security', courseNumber:'372-0-000',courseTestDateFirst:'12.1.18',courseTestDateSecond:'12.2.18'},
@@ -11,11 +11,11 @@ app.controller('homeController', ['$location', '$window','studentCoursePageServi
             {_id:'983277',courseName:'Algorythms12', courseNumber:'372-0-333',courseTestDateFirst:'13.1.18',courseTestDateSecond:'11.2.18'},
             {_id:'983278',courseName:'Information Retrieval12', courseNumber:'372-0-444',courseTestDateFirst:'15.1.18',courseTestDateSecond:'1.2.18'}
         ];
+        //self.tmp =homeService.checkCookie();
 
-
-        self.openCoursePage = function (courseID,courseName,courseNumber) {
+        self.openCoursePage = function (courseName,courseID,courseNumber) {
             homeService.setCourseID(courseID,courseName,courseNumber);
-            self.userType = homeService.userType;
+            self.userType = homeService.getCookieInfo("userType");
             //console.log(self.userType);
             switch(self.userType) {
                 case 'admin':
@@ -31,5 +31,8 @@ app.controller('homeController', ['$location', '$window','studentCoursePageServi
                     window.location.href = "#/studentCoursePage";
             }
         }
+
+
+
     }
     ]);

@@ -5,8 +5,8 @@
 app.controller('studentCoursePageController', ['$location', '$window','studentCoursePageService','homeService',
     function($location, $window,studentCoursePageService,homeService) {
         let self=this;
-        self.courseName = homeService.courseName ;
-        self.courseNumber = homeService.courseNumber ;
+        self.courseName = homeService.getCookieInfo("courseName") ;
+        self.courseNumber = homeService.getCookieInfo("courseID") ;
         self.image ="app/styles/pdfLogo.png";
         self.files= [
             {fileName:'first file', fileURL:'http://animalsoc.tau.ac.il/upload/articles/GFMSUE2627animals_society47_long.pdf'},
@@ -18,7 +18,6 @@ app.controller('studentCoursePageController', ['$location', '$window','studentCo
             {fileName:'7 file', fileURL:'http://animalsoc.tau.ac.il/upload/articles/GFMSUE2627animals_society47_long.pdf'}
         ];
         self.openFile = function (url) {
-           //console.log(url);
             window.location.href = url;
         }
 
