@@ -50,13 +50,25 @@ function addFiles(req,res,next){
     });
 }
 
+function getFiles(req,res,next){
+    courseHandler.getFiles(res.locals.details, function (err,files){
+        if(err){
+            next(err)
+        }
+        else{
+            res.json({files})
+        }
+    });
+}
+
 
 
 module.exports =
     {
         addCourse,
         addFiles,
-        addUserToCourse
+        addUserToCourse,
+        getFiles
 
     };
 

@@ -33,6 +33,10 @@ router.route('/addUserToCourse')
         courseValidator.addUserToCourse,
         courseController.addUserToCourse);
 
+router.route('/:courseId/course/:userId/files')
+    .get(
+        courseValidator.getFiles,
+        courseController.getFiles); // Get myOffers
 
 
 module.exports = router;
