@@ -44,7 +44,7 @@ function addFiles(details, cb) {
         {
             $addToSet:
                 {
-                    files:{$each: details.files}
+                    files: {$each: details.files}
                 }
 
         }, {new: true}, function (err, userInCourse) {

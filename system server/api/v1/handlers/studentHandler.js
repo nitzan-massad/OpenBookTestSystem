@@ -26,6 +26,7 @@ function register(userDetails, callback){
 
 function login(username, password, callback) {
     // var hashPassword= bcrypt.hashSync(password, saltRounds);
+    //console.log("test3");
     student.findOne({"username": username}, function (err, student) {
         if (err) {
             callback(err)

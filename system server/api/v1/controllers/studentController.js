@@ -34,6 +34,8 @@ function register(req, res, next) {
  * @param {*} next
  */
 function login(req, res, next) {
+
+    //console.log("test 2 ")
     studentHandler.login(
         req.body.username,
         req.body.password,
@@ -50,9 +52,6 @@ function login(req, res, next) {
             }
         });
 }
-
-
-
 
 module.exports =
     {

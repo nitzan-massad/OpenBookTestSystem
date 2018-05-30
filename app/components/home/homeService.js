@@ -5,22 +5,18 @@
 app.factory('homeService', ['$http', function($http) {
     let service = {};
 
-    service.setCourseID = function (courseID, courseName ){
+    service.setCourseID = function (courseID, courseName ,courseNumber){
         service.courseID = courseID ;
         service.courseName = courseName ;
+        service.courseNumber = courseNumber ;
         //console.log("test");
     }
-    service.getCourseID = function(){
-        return service.courseID ;
-    }
-    service.getCourseName = function(){
-        return service.courseName ;
-    }
-    service.getUserType = function(){
-        //should return if the user is admin, lecturer or student. the info should be in the cocke
-        //return 'student';
-        return 'lecturer' ;
-    }
 
+
+    service.setInfoAfterLogin= function (response) {
+        console.log(response)
+        service.userType =response.data.status;
+        service.firstName = response.data.firstName;
+    }
     return service ;
 }]);

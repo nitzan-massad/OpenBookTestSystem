@@ -25,7 +25,7 @@ router.route('/register')
 router.route('/login')
     .post(
         studentValidator.login,
-        studentController.login);
+        studentController.login );
 
 
 module.exports = router;

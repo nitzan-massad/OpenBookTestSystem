@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa9e32b7-6278-470b-a9f7-47eee125507e" name="Default" comment="">
-<<<<<<< HEAD
+    <list default="true" id="aa9e32b7-6278-470b-a9f7-47eee125507e" name="Default" comment="8.5.18 for github web">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system server/api/v1/handlers/dispatcherHandler.js" afterPath="$PROJECT_DIR$/system server/api/v1/handlers/dispatcherHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system server/api/v1/validators/driverValidator.js" afterPath="$PROJECT_DIR$/system server/api/v1/validators/driverValidator.js" />
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
+      <change beforePath="$PROJECT_DIR$/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/home/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/home/homeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/home/homeController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/home/homeService.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/home/homeService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/lecturerCoursePage/lecturerCoursePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/lecturerCoursePage/lecturerCoursePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/lecturerCoursePage/lecturerCoursePageController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/lecturerCoursePage/lecturerCoursePageController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/login/LoginController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/login/LoginController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/login/LoginService.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/login/LoginService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/studentCoursePage/studentCoursePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/studentCoursePage/studentCoursePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/studentCoursePage/studentCoursePageController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/studentCoursePage/studentCoursePageController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system server/api/v1/controllers/studentController.js" beforeDir="false" afterPath="$PROJECT_DIR$/system server/api/v1/controllers/studentController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system server/api/v1/routes/studentRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/system server/api/v1/routes/studentRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system server/api/v1/validators/studentValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/system server/api/v1/validators/studentValidator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system server/db/models/course/userInCourseModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/system server/db/models/course/userInCourseModel.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="C:\Users\nitzan\IdeaProjects\OpenTestBookSystem\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,149 +32,94 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
-      <file leaf-file-name="courseRoute.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js">
+      <file leaf-file-name="lecturerCoursePage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/lecturerCoursePage/lecturerCoursePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-=======
-      <file leaf-file-name="driverModel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system server/db/models/driver/driverModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
+            <state relative-caret-position="-8">
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="driverValidator.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system server/api/v1/validators/driverValidator.js">
+      <file leaf-file-name="userInCourseModel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system server/db/models/course/userInCourseModel.js">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="405">
-              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-=======
-            <state relative-caret-position="170">
-              <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-              <folding />
+            <state relative-caret-position="210">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="driverController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/driverController.js">
+      <file leaf-file-name="studentController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/studentController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="370">
+              <caret line="52" column="11" lean-forward="true" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dispatcherHandler.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/dispatcherHandler.js">
+      <file leaf-file-name="courseHandler.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-              <folding />
+            <state relative-caret-position="415">
+              <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="driverHandler.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/driverHandler.js">
+      <file leaf-file-name="studentValidator.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/system server/api/v1/validators/studentValidator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="28" />
-              <folding />
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
+            <state relative-caret-position="202">
+              <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/home/homeService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/home/homeController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="30" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="studentCoursePageController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/studentCoursePage/studentCoursePageController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="23" selection-end-line="24" />
-=======
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
+            <state relative-caret-position="660">
+              <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="135">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-=======
-            <state relative-caret-position="118">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="www" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system server/bin/www">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="570">
-              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-=======
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="driverHandler.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/driverHandler.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1290">
-              <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-=======
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system server/app.js">
+        <entry file="file://$PROJECT_DIR$/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="82" column="64" lean-forward="false" selection-start-line="82" selection-start-column="64" selection-end-line="82" selection-end-column="64" />
-              <folding />
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/system server/config/default.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="327">
+              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -177,8 +135,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>server</find>
-      <find>google</find>
+      <find>console.lo</find>
+      <find>console.log</find>
+      <find>console.log(</find>
+      <find>console.log(&quot;</find>
+      <find>console.log(&quot;t</find>
+      <find>console.log(&quot;te</find>
+      <find>console.log(&quot;tes</find>
+      <find>console.log(&quot;test</find>
+      <find>U</find>
+      <find>tes</find>
+      <find>test-</find>
+      <find>test-1</find>
+      <find>console.log(&quot;test1&quot;)</find>
+      <find>console.log(&quot;test2&quot;)</find>
+      <find>console.log(&quot;test 2&quot;)</find>
+      <find>console.log(&quot;test 2&quot;</find>
+      <find>t</find>
+      <find>test</find>
+      <find>test 2</find>
+      <find>test3</find>
+      <find>l</find>
+      <find>lo</find>
+      <find>loo</find>
+      <find>look</find>
+      <find>look at</find>
+      <find>Jekyll</find>
+      <find>theme</find>
+      <find>`</find>
+      <find>&gt;&gt;&gt;Head</find>
+      <find>HEAD</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/server</dir>
@@ -196,26 +182,37 @@
         <option value="$PROJECT_DIR$/server/DbUtils.js" />
         <option value="$PROJECT_DIR$/system server/api/v1/handlers/driverHandler.js" />
         <option value="$PROJECT_DIR$/system server/api/v1/controllers/driverController.js" />
-        <option value="$PROJECT_DIR$/system server/api/v1/routes/studentRoutes.js" />
         <option value="$PROJECT_DIR$/system server/db/models/truck/truckModel.js" />
         <option value="$PROJECT_DIR$/system server/db/models/student/studentModel.js" />
-        <option value="$PROJECT_DIR$/system server/api/v1/controllers/studentController.js" />
-        <option value="$PROJECT_DIR$/system server/api/v1/validators/studentValidator.js" />
-        <option value="$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js" />
         <option value="$PROJECT_DIR$/system server/db/models/course/courseModel.js" />
         <option value="$PROJECT_DIR$/system server/api/v1/controllers/courseController.js" />
-        <option value="$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js" />
         <option value="$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js" />
         <option value="$PROJECT_DIR$/system server/api/v1/routes/v1Routes.js" />
         <option value="$PROJECT_DIR$/system server/api/v1/validators/courseValidator.js" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/system server/config/default.json" />
-=======
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/system server/api/v1/validators/driverValidator.js" />
         <option value="$PROJECT_DIR$/system server/api/v1/handlers/dispatcherHandler.js" />
         <option value="$PROJECT_DIR$/system server/app.js" />
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/app/styles/vendor/bootstrap/js/bootstrap.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/system server/api/v1/routes/studentRoutes.js" />
+        <option value="$PROJECT_DIR$/app/components/home/home.html" />
+        <option value="$PROJECT_DIR$/app/components/lecturerCoursePage/lecturerCoursePage.html" />
+        <option value="$PROJECT_DIR$/app/components/studentCoursePage/studentCoursePage.html" />
+        <option value="$PROJECT_DIR$/app/components/login/login.html" />
+        <option value="$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js" />
+        <option value="$PROJECT_DIR$/app/components/login/LoginService.js" />
+        <option value="$PROJECT_DIR$/app/components/login/LoginController.js" />
+        <option value="$PROJECT_DIR$/app/components/home/homeController.js" />
+        <option value="$PROJECT_DIR$/app/components/lecturerCoursePage/lecturerCoursePageController.js" />
+        <option value="$PROJECT_DIR$/app/components/home/homeService.js" />
+        <option value="$PROJECT_DIR$/app/components/studentCoursePage/studentCoursePageController.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/system server/db/models/course/userInCourseModel.js" />
+        <option value="$PROJECT_DIR$/system server/api/v1/controllers/studentController.js" />
+        <option value="$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js" />
+        <option value="$PROJECT_DIR$/system server/api/v1/validators/studentValidator.js" />
       </list>
     </option>
   </component>
@@ -233,6 +230,7 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/system server/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -240,96 +238,475 @@
       <path value="$PROJECT_DIR$/app/angularScripts/ng-dialog/package.json" />
       <path value="$PROJECT_DIR$/app/angularScripts/ng-dialog/tests/build-systems/browserify/package.json" />
       <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/@types/bluebird/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/@types/express-serve-static-core/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/@types/express/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/@types/mime/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/@types/node/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/@types/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/agent-base/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/agent-base/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/agentkeepalive/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/amdefine/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/apidoc-core/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/apidoc-core/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/apidoc/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/apn/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/apn/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/aproba/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/are-we-there-yet/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/argparse/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/arr-filter/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/arr-filter/node_modules/make-iterator/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/arr-filter/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/arr-flatten/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/array-back/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/array-difference/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/array-every/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/array-intersection/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/array-slice/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/array-uniq/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/ast-types/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/base64url/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/basic-auth/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/bcrypt/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/bcryptjs/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/block-stream/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/bluebird/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/boom/node_modules/hoek/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/boom/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/bson/browser_build/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/bson/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/buffer-equal-constant-time/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/buffer-shims/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/chalk/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/clone/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/code-point-at/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/colors/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/config/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/console-control-strings/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/cors/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/cryptiles/node_modules/boom/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/cryptiles/node_modules/hoek/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/cryptiles/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/cycle/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/data-uri-to-buffer/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/deep-extend/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/deep-is/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/defaults/node_modules/clone/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/defaults/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/degenerator/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/delegates/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/dotenv/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/ecdsa-sig-formatter/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/ejs/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/elasticsearch/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/elasticsearch/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/elasticsearch/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/elasticsearch/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/entities/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/es6-promise/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/es6-promisify/node_modules/es6-promise/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/es6-promisify/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/escodegen/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/escodegen/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/estraverse/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/esutils/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/etag/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/expand-brackets/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/expand-range/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/express-rate-limit/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/express-validator/node_modules/bluebird/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/express-validator/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/express/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/extglob/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/eyes/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/fast-levenshtein/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/file-uri-to-path/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/filename-regex/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/fill-range/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/filter-array/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/@types/jsonwebtoken/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/@types/node/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/base64url/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/buffer-equal-constant-time/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/ecdsa-sig-formatter/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/faye-websocket/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/hoek/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/isemail/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/joi/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/jsonwebtoken/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/jwa/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/jws/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/lodash.once/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/moment/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/node-forge/flash/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/node-forge/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/topo/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/websocket-driver/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/websocket-extensions/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/node_modules/xtend/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/firebase-admin/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/for-in/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/for-own/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/forwarded/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/fs-extra/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/fstream-ignore/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/fstream/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/ftp/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/ftp/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/ftp/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/ftp/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/gauge/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/geolib/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/get-uri/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/glob-base/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/glob-parent/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/google-distance-matrix/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/has-color/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/has-unicode/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/hawk/node_modules/hoek/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/hawk/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/hoek/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/hooks-fixed/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/http-proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/http2/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/https-proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/index-of/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/inflection/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/ini/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/ip/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/ipaddr.js/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/is-coordinates/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/is-dotfile/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/is-equal-shallow/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/is-number/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/is-posix-bracket/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/is-primitive/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/is-stream/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/json5/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/jsonfile/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/jsonify/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/jsonwebtoken/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/jsonwebtoken/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/jwa/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/jws/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/kareem/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/klaw-sync/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/levn/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/linkify-it/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/lodash.get/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/lodash.includes/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/lodash.isboolean/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/lodash.isempty/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/lodash.isinteger/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/lodash.isnumber/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/lodash.isplainobject/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/lodash.isstring/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/lodash.once/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/lodash.trimend/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mailgun-js/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mailgun-js/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mailgun-js/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/make-iterator/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/markdown-it/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mdurl/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/merge-descriptors/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/micromatch/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/moment/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mongodb-core/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mongodb/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mongoose-deep-populate/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mongoose-geojson-schema/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mongoose-type-url/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mongoose/examples/aggregate/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mongoose/examples/express/connection-sharing/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mongoose/examples/geospatial/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mongoose/examples/lean/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mongoose/examples/mapreduce/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mongoose/examples/promises/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mongoose/examples/querybuilder/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mongoose/examples/replicasets/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mongoose/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mongoose/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/morgan/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/morgan/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mpath/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mpromise/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mquery/node_modules/sliced/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/mquery/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/muri/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/nan/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/nan/tools/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/netmask/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-forge/flash/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-forge/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-gcm/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-gcm/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-gcm/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-gcm/node_modules/boom/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-gcm/node_modules/cryptiles/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-gcm/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-gcm/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-gcm/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-gcm/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-gcm/node_modules/hawk/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-gcm/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-gcm/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-gcm/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-gcm/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-gcm/node_modules/sntp/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-gcm/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-pre-gyp/lib/util/nw-pre-gyp/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/node-pre-gyp/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/nomnom/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/normalize-path/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/normalizeurl/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/npmlog/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/number-is-nan/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/object-get/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/object.omit/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/on-headers/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/optionator/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/os-homedir/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/osenv/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/pac-proxy-agent/node_modules/socks-proxy-agent/node_modules/agent-base/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/pac-proxy-agent/node_modules/socks-proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/pac-proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/pac-resolver/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/parse-glob/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/path-proxy/node_modules/inflection/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/path-proxy/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/prelude-ls/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/preserve/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/promisify-call/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/proxy-addr/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/qs-google-signature/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/qs-google-signature/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/randomatic/node_modules/is-number/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/randomatic/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/randomatic/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/randomatic/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/randomstring/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/rc/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/rc/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/regex-cache/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/regexp-clone/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/remove-trailing-separator/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/repeat-element/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/repeat-string/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/request/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/request/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/request/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/request/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/require_optional/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/require_optional/test/nestedTest/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/resolve-from/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/set-blocking/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/signal-exit/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/sliced/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/smart-buffer/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/sntp/node_modules/hoek/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/sntp/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/socks-proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/socks/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/sort-array/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/sprintf-js/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/stack-trace/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/stringstream/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/strip-json-comments/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/tar-pack/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/tar/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/thunkify/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/tsscmp/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/type-check/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/typical/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/uc.micro/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/uid-number/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/underscore/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/universalify/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/validator/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/vary/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/wide-align/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/winston/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/winston/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/with-callback/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/wordwrap/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/xregexp/package.json" />
+      <path value="$PROJECT_DIR$/system server/node_modules/xtend/package.json" />
       <path value="$PROJECT_DIR$/system server/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="y" value="23" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenTestBookSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenTestBookSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenTestBookSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenTestBookSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenTestBookSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenTestBookSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-<<<<<<< HEAD
-=======
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="student&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/api/v1/routes/studentRoutes.js&#10;driverM&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/db/models/driver/driverModel.js&#10;www&#9;RUN_CONFIGURATION&#9;www.js&#10;config&#9;null&#9;null&#10;v&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/.idea/vcs.xml" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="studentVa&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/api/v1/validators/studentValidator.js&#10;courseHa n&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/api/v1/handlers/courseHandler.js&#10;tudentCo&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/api/v1/controllers/studentController.js&#10;userin&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/db/models/course/userInCourseModel.js&#10;studentValidator&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/system server/api/v1/validators/studentValidator.js&#10;studentRoutes&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/system server/api/v1/routes/studentRoutes.js&#10;v1Routes&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/system server/api/v1/routes/v1Routes.js&#10;apiRoutes&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/system server/api/routes/apiRoutes.js&#10;app&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/app/angularScripts/ng-dialog/tests/build-systems/browserify/app.js&#10;www&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/system server/bin/www&#10;v1&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/system server/api/v1/routes/v1Routes.js&#10;_config&#9;null&#9;null&#10;config&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/app/angularScripts/ng-dialog/.editorconfig&#10;student&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/api/v1/routes/studentRoutes.js&#10;driverM&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/db/models/driver/driverModel.js&#10;v&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/.idea/vcs.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nitzan\IdeaProjects\OpenTestBookSystem" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -345,9 +722,130 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.www.js">
-    <configuration default="false" name="www.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$/system server">
-      <method />
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="www.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$/system server" />
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -404,21 +902,6 @@
       </Profilers>
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -445,39 +928,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
       <method />
     </configuration>
@@ -500,55 +950,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -563,35 +964,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -665,37 +1037,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -722,17 +1063,19 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.www.js" />
-    </list>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.www.js" />
+      <list>
+        <item itemvalue="Node.js.www.js" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -744,25 +1087,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525101823023</updated>
-<<<<<<< HEAD
-      <workItem from="1525101825826" duration="19098000" />
-      <workItem from="1525274090235" duration="583000" />
-      <workItem from="1525635901367" duration="375000" />
-=======
       <workItem from="1525101825826" duration="14437000" />
-      <workItem from="1525684040629" duration="2358000" />
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
+      <workItem from="1525684040629" duration="4458000" />
+      <workItem from="1525698779356" duration="17891000" />
+      <workItem from="1525794734943" duration="4178000" />
+      <workItem from="1525801254020" duration="884000" />
+      <workItem from="1527689795255" duration="514000" />
     </task>
+    <task id="LOCAL-00001" summary="7.5.18 SERVER WORKS ON FRONT">
+      <created>1525686497153</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525686497153</updated>
+    </task>
+    <task id="LOCAL-00002" summary="8.5.18 login works">
+      <created>1525799275247</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525799275247</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="20056000" />
-=======
-    <option name="totallyTimeSpent" value="21189000" />
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
+    <option name="totallyTimeSpent" value="46756000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -772,102 +1124,43 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="23" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-<<<<<<< HEAD
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.32905984" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5007153" side_tool="true" weight="0.21652421" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49928468" weight="0.12535612" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32905984" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32905984" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1923077" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17739628" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12462687" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.24964234" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Debug" order="9" weight="0.39127326" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Properties" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32905984" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.17811158" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.24964234" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49928468" weight="0.12535612" />
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32905984" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5007153" side_tool="true" weight="0.21652421" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="right" id="Debug" order="9" weight="0.39127326" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-    </layout-to-restore>
-=======
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout>
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -898,6 +1191,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="7.5.18 SERVER WORKS ON FRONT" />
+    <MESSAGE value="8.5.18 login works" />
+    <MESSAGE value="8.5.18 for github web" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.5.18 for github web" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -926,360 +1225,15 @@
           <line>6</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/routes/studentRoutes.js</url>
-          <line>8</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-<<<<<<< HEAD
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js</url>
-          <line>21</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js</url>
-          <line>22</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/validators/courseValidator.js</url>
-          <line>22</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/validators/courseValidator.js</url>
-          <line>28</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/controllers/courseController.js</url>
-          <line>20</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js</url>
-          <line>12</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js</url>
-          <line>19</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js</url>
-          <line>14</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js</url>
-          <line>6</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/validators/courseValidator.js</url>
-          <line>21</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-=======
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
       </breakpoints>
       <option name="time" value="38" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/validators/courseValidator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="23" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/v1Routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/driverHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/config/default.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/validators/courseValidator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/courseController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="23" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/v1Routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/driverHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/DbUtils.js" />
-    <entry file="file://$PROJECT_DIR$/server/routes/index.js" />
-    <entry file="file://$PROJECT_DIR$/server/lib/user.js" />
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/userController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.js" />
-    <entry file="file://$PROJECT_DIR$/system server/api/routes/apiRoutes.js">
-=======
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/dispatcherHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/routes/generalRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/truckRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/validators/truckValidator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/truckController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-412">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/truckHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="59" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/studentRoutes.js">
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/db/models/student/studentModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/driverController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/db/models/driver/driverModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/validators/driverValidator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="53" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/validators/studentValidator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/validators/truckValidator.js">
-=======
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/studentController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="13" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="45" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js">
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="41" column="47" lean-forward="false" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/driverHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="-412">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="18" />
-=======
-        <state relative-caret-position="62">
-          <caret line="62" column="31" lean-forward="false" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-          <folding />
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/driverController.js">
-=======
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/DbUtils.js" />
-    <entry file="file://$PROJECT_DIR$/server/routes/index.js" />
-    <entry file="file://$PROJECT_DIR$/server/lib/user.js" />
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/userController.js">
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.js" />
-    <entry file="file://$PROJECT_DIR$/system server/api/routes/apiRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system server/node_modules/config/lib/config.js" />
     <entry file="file://$PROJECT_DIR$/config/default.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -1290,16 +1244,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/system server/api/routes/generalRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/truckRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
+        <state relative-caret-position="-150" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system server/api/v1/validators/truckValidator.js">
@@ -1312,38 +1264,19 @@
     <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/truckController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-412">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="18" />
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/truckHandler.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="59" selection-end-column="2" />
+          <caret line="56" selection-start-line="56" selection-end-line="59" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system server/db/models/driver/driverModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/studentRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/validators/studentValidator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/system server/db/models/student/studentModel.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1352,166 +1285,287 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/studentController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system server/db/models/course/courseModel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-<<<<<<< HEAD
           <caret line="17" column="24" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/courseController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-=======
-          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="24" />
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-<<<<<<< HEAD
-          <caret line="24" selection-start-line="23" selection-end-line="24" />
-=======
-          <caret line="24" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/v1Routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-<<<<<<< HEAD
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-=======
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system server/api/v1/validators/courseValidator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/driverHandler.js">
+    <entry file="file://$PROJECT_DIR$/system server/db/models/dispatcher/offerModel.js">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="1290">
-          <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-=======
-        <state relative-caret-position="-378">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
-        </state>
+        <state relative-caret-position="-378" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/userHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/config/default.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-=======
-        <state relative-caret-position="-1516">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
+        <state relative-caret-position="-1516" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/courseController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system server/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/driverHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="238">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system server/api/v1/validators/driverValidator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/driverController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/dispatcherHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="306">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system server/app.js">
+    <entry file="file://$PROJECT_DIR$/app/angularScripts/ng-dialog/.editorconfig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="82" column="64" lean-forward="false" selection-start-line="82" selection-start-column="64" selection-end-line="82" selection-end-column="64" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/vendor/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="637" selection-start-line="637" selection-end-line="637" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/route.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
->>>>>>> 1d757b24ce05fedf65f9d8ad75720fdc13538fea
+          <caret line="201" selection-start-line="201" selection-end-line="201" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1276" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/home/home.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/studentCoursePage/studentCoursePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="135" selection-start-line="9" selection-start-column="135" selection-end-line="9" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/db/mongooseInit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/angularScripts/ng-dialog/tests/build-systems/browserify/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="26" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/api/routes/apiRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/v1Routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/studentRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/login/LoginService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/login/LoginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/lecturerCoursePage/lecturerCoursePageController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/home/homeService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/home/homeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/public/js/plugins/codemirror/mode/mirc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2533">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/studentCoursePage/studentCoursePageController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/lecturerCoursePage/lecturerCoursePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/db/models/course/userInCourseModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/studentController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="52" column="11" lean-forward="true" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system server/api/v1/validators/studentValidator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
         </state>
       </provider>
     </entry>

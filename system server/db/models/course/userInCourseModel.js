@@ -13,7 +13,6 @@ var Schema = mongoose.Schema,
 var userInCourse = new Schema({
     userId: {type:ObjectId},
     courseId:{type:ObjectId},
-
     files: [
         {
             fileName: String,
