@@ -58,10 +58,13 @@ app.factory('homeService', ['$http', function($http) {
         return "";
     }
 
-  /* service.checkCookie=function checkIfCookieExist() {
+  service.checkIfCookieExist =function checkIfCookieExist() {
         var decodedCookie = decodeURIComponent(document.cookie);
-
-    }*/
+        if (decodedCookie === undefined ){
+            return false ;
+        }
+        return true;
+    }
 
     return service ;
 }]);

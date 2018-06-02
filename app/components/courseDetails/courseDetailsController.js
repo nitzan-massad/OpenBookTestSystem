@@ -4,14 +4,49 @@
 
 
 
-app.controller('courseDetailsController', ['$scope',
-    function ($scope) {
+app.controller('courseDetailsController', ['$scope','$http',
+    function ($scope, $http) {
         var self = this;
 
-       self.image ="folderImg.png";
-        self.courses = [
-            {courseName:'Advanced topics in cyber security', courseNumber:'372-0-000',courseTestDateFirst:'12.1.18',courseTestDateSecond:'12.2.18'},
-            {courseName:'Algorythms', courseNumber:'372-0-111',courseTestDateFirst:'11.1.18',courseTestDateSecond:'11.2.18'},
-            {courseName:'Information Retrieval', courseNumber:'372-0-222',courseTestDateFirst:'1.1.18',courseTestDateSecond:'1.2.18'}
-        ];
+
+
+        self.tmp = function () {
+            console.log("adsq");
+            var deleteUrl= "http://s3-eu-west-1.amazonaws.com/openbooktestliron/mongoDBstart.txt";
+            return $http.delete(deleteUrl)
+            return $http(req)
+                .then(function(response) {
+                    console.log("nitzanTheKing");
+                    console.log(response);
+
+
+                })
+                .catch(function () {
+                    console.log("excption");
+                    return Promise.reject();
+                });
+        }
+
+        AWS.config.update({
+            accessKeyId : 'AKIAJL4QAWFVAVQMBIRA',
+            secretAccessKey : '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'
+        });
+        AWS.config.region = 'eu-west-1';
+        $("#fileUploadForm").submit(function() {
+            var bucket = new AWS.S3({params: {Bucket: 'openbooktestliron'}});
+            var fileChooser = document.getElementById('file');
+            var file = fileChooser.files[0];
+            if (file) {
+                var params = {Key: 'FILE_NAME', ContentType: file.type, Body: file};
+                bucket.upload(params).on('httpUploadProgress', function(evt) {
+                    console.log("Uploaded :: " + parseInt((evt.loaded * 100) / evt.total)+'%');
+                }).send(function(err, data) {
+                    console.log(err);
+                    console.log(data);
+                    //alert("File uploaded successfully.");
+                });
+            }
+            return false;
+        });
+
     }]);

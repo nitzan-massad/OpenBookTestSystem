@@ -1,5 +1,20 @@
+
+
+
 <div ng-controller="studentCoursePageController as coursePageCtrl" style="margin-top: -60px">
+
+
     <h3> Course name:&nbsp;&nbsp;&nbsp; {{coursePageCtrl.courseName}}&nbsp;&nbsp;&nbsp;{{ coursePageCtrl.courseNumber}}</h3>
+    <form action="http://s3-eu-west-1.amazonaws.com/openbooktestliron" method="post" enctype="multipart/form-data">
+        <input id ="fileNameElement" type="hidden" name="key" value="testfile9.txt"  />
+        <input type="hidden" name="acl" value="public-read" />
+        <input type="hidden" name="content-type" value="application/octet-stream" />
+        <input type="hidden" name="AWSAccessKeyId" value="AKIAJL4QAWFVAVQMBIRA" />
+        <input id="policyElement" name="policy" type="hidden" value="ewogICJleHBpcmF0aW9uIjogIjIwMTgtMDctMDdUMTI6MDA6MDAuMDAwWiIsCiAgImNvbmRpdGlvbnMiOiBbCiAgICB7ImJ1Y2tldCI6ICJvcGVuYm9va3Rlc3RsaXJvbiIgfSwKICAgIHsiYWNsIjogInB1YmxpYy1yZWFkIiB9LAogICAgWyJlcSIsICIka2V5IiwgInRlc3RmaWxlMy50eHQiXSwKICAgIFsic3RhcnRzLXdpdGgiLCAiJENvbnRlbnQtVHlwZSIsICJ0ZXh0LyJdLAogIF0KfQo=" />
+        <input id="signatureElement" type="hidden" name="signature" value="TV3LG7M+/4pgZS2QHPpSY/JtIjE=" />
+        <input id ="nit" name="file" type="file" onchange="myFunction()" accept="application/pdf,application/vnd.ms-excel" />
+        <input name="submit" value="Upload" type="submit" />
+    </form>
     </br>
     </br>
     </br>Search
@@ -10,7 +25,7 @@
         <div class="animate-repeat" ng-repeat="file in coursePageCtrl.files | filter:q as results track by file.fileName ">
             <div class="div-file-display" style=" width: 300px; float: left; margin-left: -20px; margin-right: -20px; margin-bottom: 20px  " ng-click="coursePageCtrl.openFile(file.fileURL)" >
                 <img src="{{coursePageCtrl.image}}"  alt="" height="70" style="text-align: center"/>
-                <h5 style="font-weight: bold">{{file.fileName}}</h5>
+                <h5 style=" font-weight: bold">{{file.fileName}}</h5>
             </div>
         </div>
         <a class="animate-repeat" ng-if="results.length === 0">

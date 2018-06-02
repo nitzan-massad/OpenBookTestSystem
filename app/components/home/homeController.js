@@ -2,6 +2,11 @@
 app.controller('homeController', ['$location', '$window','studentCoursePageService','homeService',
     function($location, $window,studentCoursePageService,homeService) {
         let self=this;
+
+        /*if (homeService.checkIfCookieExist){
+            window.location.href = "#/login";
+        }
+        */
         self.name = homeService.getCookieInfo("firstName");
         self.image ="app/styles/folderImg.png";
         self.courses = [
@@ -11,7 +16,6 @@ app.controller('homeController', ['$location', '$window','studentCoursePageServi
             {_id:'983277',courseName:'Algorythms12', courseNumber:'372-0-333',courseTestDateFirst:'13.1.18',courseTestDateSecond:'11.2.18'},
             {_id:'983278',courseName:'Information Retrieval12', courseNumber:'372-0-444',courseTestDateFirst:'15.1.18',courseTestDateSecond:'1.2.18'}
         ];
-        //self.tmp =homeService.checkCookie();
 
         self.openCoursePage = function (courseName,courseID,courseNumber) {
             homeService.setCourseID(courseID,courseName,courseNumber);
@@ -28,7 +32,7 @@ app.controller('homeController', ['$location', '$window','studentCoursePageServi
                     break;
                 default:
                     //console.log("ronTonBon3");
-                    window.location.href = "#/studentCoursePage";
+                    window.location.href = "#/lecturerCoursePage";
             }
         }
 

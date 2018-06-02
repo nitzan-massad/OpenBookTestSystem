@@ -6,6 +6,8 @@ let app = angular.module('myApp', ['ngRoute']);
 app.controller('mainController',['MailBoxService',  function (MailBoxService) {
     let vm = this;
     vm.mail = "app/styles/whiteMailBox.png";
+    vm.logo = "app/styles/logoWhiteWithColor.png";
+
     //vm.mail = "app/styles/whiteMailBoxWithNotfiction.png";
 }]);
 
@@ -37,6 +39,10 @@ app.config( ['$routeProvider', function($routeProvider) {
         .when("/mailBox", {
             templateUrl : "app/components/mailBox/mailBox.html",
             controller : "mailBoxController"
+        })
+        .when("/test", {
+            templateUrl : "app/components/courseDetails/courseDetails.html",
+            controller : "courseDetailsController"
         })
 
         .otherwise({redirect: '/login',

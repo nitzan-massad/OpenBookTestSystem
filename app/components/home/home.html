@@ -1,6 +1,6 @@
 
 
-<div ng-controller="homeController as homeCtrl" style="margin-top: -90px" onload="homeCtrl.checkCookie()">
+<div ng-controller="homeController as homeCtrl" style="margin-top: -90px;  " >
     <h3> Hello {{homeCtrl.name}},</h3>
     <h3> You have {{homeCtrl.courses.length}} courses</h3>
     </br>Search
@@ -8,8 +8,8 @@
     </br>
     </br>
     <ul style="align:center" >
-        <div class="animate-repeat" ng-repeat="course in homeCtrl.courses | filter:q as results track by course.courseName && course.courseNumber">
-            <div class="div-course-display" style=" width: 600px; float: left;" ng-click="homeCtrl.openCoursePage(course._id,course.courseName,course.courseNumber)">
+        <div style="margin-left: 12%" class="animate-repeat" ng-repeat="course in homeCtrl.courses | filter:q as results track by course.courseName && course.courseNumber" >
+            <div class="div-course-display" style=" width: 600px; float: left;  "  ng-click="homeCtrl.openCoursePage(course._id,course.courseName,course.courseNumber)">
                 <img src="{{homeCtrl.image}}"  alt="" height="70" style="text-align: center"/>
                 <h5 style="font-weight: bold">{{course.courseName}}</h5>
                 <p >{{course.courseNumber}} </p>

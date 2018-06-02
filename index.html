@@ -23,6 +23,8 @@
     <script src="app/components/studentCoursePage/studentCoursePageController.js"></script>
     <script src="app/components/lecturerCoursePage/lecturerCoursePageController.js"></script>
     <script src="app/components/mailBox/mailBoxController.js"></script>
+    <!-- amzon S3 script -->
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1.24.min.js"></script>
     <!-- services-->
     <script src="app/components/home/homeService.js"></script>
     <script src="app/components/login/LoginService.js"></script>
@@ -39,6 +41,8 @@
     <link href="app/styles/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Asap' rel='stylesheet'>
+
     <!-- Plugin CSS -->
     <link href="app/styles/vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
     <!-- Custom styles for this template -->
@@ -53,21 +57,15 @@
 <div class="header" ng-controller="mainController as mainCtrl">
 
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
-        <a  href="#/mailBox">
-        <img src="{{mainCtrl.mail}}"  alt="" height="50" style="text-align: left; margin-right: 5%"   />
+        <a  href="#/">
+        <img src="{{mainCtrl.logo}}"  alt="" height="100" style="text-align: left; margin-right: -100%"   />
         </a>
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#/">Open test System</a>
-            <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fa fa-bars"></i>
-            </button>
+            <a class="navbar-brand js-scroll-trigger" style="margin-left: -10%" href="#/"><big >Wiser</big><small> Open Book Exam</small>  </a>
+
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
 
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <img src="{{app/styles/pdfLogo.png}}"  alt="" height="70" style="text-align: center"/>
-                    </li>
                     <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#/">Home</a>
                     </li>
@@ -75,8 +73,11 @@
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#/login">Login</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+                        <a href="#/mailBox">
+                        <img src="{{mainCtrl.mail}}"  alt="" height="50" style="text-align: left; margin-left: 95%"  />
+                        </a>
                     </li>
+
                 </ul>
             </div>
         </div>
