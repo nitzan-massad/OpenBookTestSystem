@@ -16,7 +16,7 @@ var dbConfig ={
             "user": "",
             "password": "",
             "port": "27017",
-            "database": "TruckNow"
+            "database": "Wiser"
 }
 var user = dbConfig.user;
 var pass = dbConfig.password;

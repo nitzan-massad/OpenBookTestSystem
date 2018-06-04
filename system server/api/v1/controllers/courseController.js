@@ -72,6 +72,22 @@ function getCourses(req,res,next){
     });
 }
 
+function sendMessageToCourse(req, res, next){
+    courseHandler.sendMessageToCourse( res.locals.details,function (err, succes){
+        if (err){
+            var errorJson= {
+                "succes":false
+            }
+            res.json(errorJson)
+        }
+        else{
+            var successJson= {
+                "succes":true
+            }
+            res.json(successJson)
+        }
+    })
+}
 
 
 module.exports =
@@ -80,7 +96,8 @@ module.exports =
         addFiles,
         addUserToCourse,
         getFiles,
-        getCourses
+        getCourses,
+        sendMessageToCourse
 
     };
 

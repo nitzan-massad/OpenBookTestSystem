@@ -12,18 +12,22 @@ var Schema = mongoose.Schema,
 
 var fileSchema=new Schema({
     fileName: String,
-    fileLink:{type: String, unique:true}
+    fileLink:{type: String, unique:true, sparse: true}
 },{_id:false});
+
+var messageSchema=new Schema({
+    message: String,
+    isRead: {type: Boolean,default: false}
+});
 
 var userInCourse = new Schema({
     userId: {type:ObjectId},
     courseId:{type:ObjectId, ref:'Course'},
     files: [
-        // {
-        //     fileName: String,
-        //     fileLink:{type: String, unique:true}
             fileSchema
-        // }
+            ],
+    messages:[
+        messageSchema
     ]
 
 });

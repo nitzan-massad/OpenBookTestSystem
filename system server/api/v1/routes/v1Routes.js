@@ -13,7 +13,6 @@ var router = express.Router();
 
 // routes
 var driverRoutes = require('./driverRoutes'); 
-var dispatcherRoutes = require('./dispatcherRoutes'); 
 var truckRoutes = require('./truckRoutes');
 var globalRoutes = require('./globalRoutes');
 
@@ -29,7 +28,6 @@ var requestController = require('../controllers/requestController');
 //router.all('*', requestController.verifyHeaders);
 
 router.use('/driver/', driverRoutes);
-router.use('/dispatcher/', dispatcherRoutes);
 router.use('/truck/', truckRoutes);
 
 router.use('/global/', globalRoutes);

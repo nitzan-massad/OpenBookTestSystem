@@ -92,6 +92,26 @@ function getCourses(user,cb){
         });
 }
 
+function sendMessageToCourse(details,cb){
+    userInCourse.updateMany(
+        {courseId: details.courseId},
+        {$push:
+                {
+                    messages:{message : details.message}
+                }
+        },function(err, succes){
+            if (err){
+                console.log("course handler: sending to course message failed");
+                cb(err);
+            }
+            else{
+                console.log("course handler: success sending message to course");
+                cb(null, succes);
+            }
+        }
+    );
+}
+
 
 
 
@@ -100,6 +120,7 @@ module.exports = {
     addFiles,
     addUserToCourse,
     getFiles,
-    getCourses
+    getCourses,
+    sendMessageToCourse
 
 };

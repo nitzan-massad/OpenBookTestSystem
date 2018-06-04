@@ -33,15 +33,21 @@ router.route('/addUserToCourse')
         courseValidator.addUserToCourse,
         courseController.addUserToCourse);
 
-router.route('/:courseId/:userId/files')
+router.route('/:courseId/:userId/getfiles')
     .get(
         courseValidator.getFiles,
         courseController.getFiles);
 
-router.route('/:userId/courses')
+router.route('/:userId/getcourses')
     .get(
         courseValidator.getCourses,
         courseController.getCourses);
+
+router.route('/sendMessageToCourse')
+    .post(
+        courseValidator.sendMessageToCourse,
+        courseController.sendMessageToCourse);
+
 
 
 module.exports = router;

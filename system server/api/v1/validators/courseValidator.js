@@ -74,23 +74,6 @@ function addFiles(req, res, next){
     });
 }
 
-function getFiles (req,res,next){
-    var userInCourse={};
-    userInCourse["courseId"]=req.params.courseId;
-    userInCourse["userId"]= req.params.userId;
-    // userInCourse["files"]=req.body.files;
-    validate(userInCourse,function(err,details){
-        if (err){
-            next(err)
-        }else
-        if(details==null){
-            next(err)
-        }else{
-            res.locals.details=userInCourse;
-            next(null,details)
-        }
-    });
-}
 
 function getFiles (req,res,next){
     var userInCourse={};
@@ -135,6 +118,64 @@ function getCourses(req,res,next){
 }
 
 
+function sendMessageToCourse(req,res,next){
+    var array={};
+    array["courseId"]=req.body.courseId;
+    array["userId"]=req.body.userId;
+    array["message"]=req.body.message;
+    if ( !array["courseId"] || !array["userId"] || !array["message"]){
+        var msg = 'invalid parameters';
+        error(msg);
+        next(new Error(msg));
+    }
+    validateToSendMessage(array,function(err,details){
+        if (err){
+            next(err)
+        }else
+        if(details==null){
+            next(err)
+        }else{
+            res.locals.details=array;
+            next(null,details)
+        }
+    });
+}
+
+
+// ***************************************** check if user ss lecturer and course exist
+
+function validateToSendMessage(details,cb){
+    async.waterfall([
+        async.apply(checkIfCourseExist,details),
+        checkIfUserLecturer
+    ],function (err, res){
+        if (err){
+            cb(err);
+        }
+        else{
+            cb(null, res);
+        }
+    });
+}
+
+// ****************************************check if user is lecturer
+
+function checkIfUserLecturer(details, cb) {
+    student.findOne({_id: details.userId, status: "lecturer"}, function (err, lecturer) {
+        if (err) {
+            console.log("course handler: no such lecturer");
+            return cb(err)
+        }
+        else {
+            console.log(details.userId)
+            console.log(lecturer)
+            return cb(null, details)
+        }
+    });
+}
+
+// ****************************************validate user and course  exist
+
 function validate(details, cb) {
     async.waterfall([
         async.apply(checkIfCourseExist,details),
@@ -148,6 +189,8 @@ function validate(details, cb) {
         }
     });
 }
+
+// ****************************************check if user exist
 
 function checkIfUserExist(details, cb) {
     student.findOne({_id: details.userId}, function (err, student) {
@@ -163,6 +206,7 @@ function checkIfUserExist(details, cb) {
     });
 }
 
+// ****************************************check if course exist
 
 function checkIfCourseExist(details, cb) {
     course.findOne({_id: details.courseId}, function (err, course) {
@@ -171,7 +215,7 @@ function checkIfCourseExist(details, cb) {
             return cb(err)
         }
         else {
-            // console.log(course)
+            console.log(course)
             return cb(null, details)
         }
     });
@@ -183,5 +227,6 @@ module.exports = {
     addFiles,
     addUserToCourse,
     getFiles,
-    getCourses
+    getCourses,
+    sendMessageToCourse
 };
