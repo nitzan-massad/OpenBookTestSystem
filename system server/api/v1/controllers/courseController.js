@@ -28,8 +28,30 @@ function addCourse(req, res, next) {
     });
 }
 
+function addUserToCourse(req,res,next){
+    courseHandler.addUserToCourse(res.locals.details, function (err,userInCourse){
+        if(err){
+            next(err)
+        }
+        else{
+            res.json({userInCourse})
+        }
+    });
+}
+
 function addFiles(req,res,next){
-    courseHandler.addFiles(res.locals.details, function (err,files){
+    courseHandler.addFiles(res.locals.details, function (err,userInCourse){
+        if(err){
+            next(err)
+        }
+        else{
+            res.json({userInCourse})
+        }
+    });
+}
+
+function getFiles(req,res,next){
+    courseHandler.getFiles(res.locals.details, function (err,files){
         if(err){
             next(err)
         }
@@ -39,12 +61,43 @@ function addFiles(req,res,next){
     });
 }
 
+function getCourses(req,res,next){
+    courseHandler.getCourses(res.locals.details, function (err,courses){
+        if(err){
+            next(err)
+        }
+        else{
+            res.json({courses})
+        }
+    });
+}
+
+function sendMessageToCourse(req, res, next){
+    courseHandler.sendMessageToCourse( res.locals.details,function (err, succes){
+        if (err){
+            var errorJson= {
+                "succes":false
+            }
+            res.json(errorJson)
+        }
+        else{
+            var successJson= {
+                "succes":true
+            }
+            res.json(successJson)
+        }
+    })
+}
 
 
 module.exports =
     {
         addCourse,
-        addFiles
+        addFiles,
+        addUserToCourse,
+        getFiles,
+        getCourses,
+        sendMessageToCourse
 
     };
 

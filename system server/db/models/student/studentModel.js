@@ -11,7 +11,7 @@ var Schema = mongoose.Schema,
     ObjectId = Schema.ObjectId;
 
 var Student = new Schema({
-        // _id: String,
+        //_id: String,
         firstName: String,
         lastName: String,
         username: { type: String, required: true, unique: true },

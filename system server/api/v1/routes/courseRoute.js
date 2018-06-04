@@ -20,12 +20,34 @@ var courseValidator = require('../validators/courseValidator');
 router.route('/addCourse')
     .post(
         courseValidator.addCourse,
-        courseController.addCourse); // Register new course
+        courseController.addCourse);
 
 router.route('/addFiles')
     .post(
         courseValidator.addFiles,
-        courseController.addFiles); // Register new course
+        courseController.addFiles);
+
+
+router.route('/addUserToCourse')
+    .post(
+        courseValidator.addUserToCourse,
+        courseController.addUserToCourse);
+
+router.route('/:courseId/:userId/getfiles')
+    .get(
+        courseValidator.getFiles,
+        courseController.getFiles);
+
+router.route('/:userId/getcourses')
+    .get(
+        courseValidator.getCourses,
+        courseController.getCourses);
+
+router.route('/sendMessageToCourse')
+    .post(
+        courseValidator.sendMessageToCourse,
+        courseController.sendMessageToCourse);
+
 
 
 module.exports = router;
