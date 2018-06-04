@@ -20,7 +20,7 @@ var courseValidator = require('../validators/courseValidator');
 router.route('/addCourse')
     .post(
         courseValidator.addCourse,
-        courseController.addCourse); // Register new course
+        courseController.addCourse);
 
 router.route('/addFiles')
     .post(
@@ -33,10 +33,15 @@ router.route('/addUserToCourse')
         courseValidator.addUserToCourse,
         courseController.addUserToCourse);
 
-router.route('/:courseId/course/:userId/files')
+router.route('/:courseId/:userId/files')
     .get(
         courseValidator.getFiles,
-        courseController.getFiles); // Get myOffers
+        courseController.getFiles);
+
+router.route('/:userId/courses')
+    .get(
+        courseValidator.getCourses,
+        courseController.getCourses);
 
 
 module.exports = router;

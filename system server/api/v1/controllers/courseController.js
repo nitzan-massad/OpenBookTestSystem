@@ -40,12 +40,12 @@ function addUserToCourse(req,res,next){
 }
 
 function addFiles(req,res,next){
-    courseHandler.addFiles(res.locals.details, function (err,files){
+    courseHandler.addFiles(res.locals.details, function (err,userInCourse){
         if(err){
             next(err)
         }
         else{
-            res.json({files})
+            res.json({userInCourse})
         }
     });
 }
@@ -61,6 +61,17 @@ function getFiles(req,res,next){
     });
 }
 
+function getCourses(req,res,next){
+    courseHandler.getCourses(res.locals.details, function (err,courses){
+        if(err){
+            next(err)
+        }
+        else{
+            res.json({courses})
+        }
+    });
+}
+
 
 
 module.exports =
@@ -68,7 +79,8 @@ module.exports =
         addCourse,
         addFiles,
         addUserToCourse,
-        getFiles
+        getFiles,
+        getCourses
 
     };
 

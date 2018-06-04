@@ -10,14 +10,20 @@ var mongoose = require('mongoose')
 var Schema = mongoose.Schema,
     ObjectId = Schema.ObjectId;
 
+var fileSchema=new Schema({
+    fileName: String,
+    fileLink:{type: String, unique:true}
+},{_id:false});
+
 var userInCourse = new Schema({
     userId: {type:ObjectId},
-    courseId:{type:ObjectId},
+    courseId:{type:ObjectId, ref:'Course'},
     files: [
-        {
-            fileName: String,
-            fileLink:String
-        }
+        // {
+        //     fileName: String,
+        //     fileLink:{type: String, unique:true}
+            fileSchema
+        // }
     ]
 
 });

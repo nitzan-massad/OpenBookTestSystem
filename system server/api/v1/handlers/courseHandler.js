@@ -49,7 +49,7 @@ function addFiles(details, cb) {
 
         }, {new: true}, function (err, userInCourse) {
             if (err) {
-                console.log("course handler: user in course error");
+                console.log("course handler: user in course error failed");
                 cb(err)
             }
             else {
@@ -60,11 +60,10 @@ function addFiles(details, cb) {
 }
 
 function getFiles(details, cb) {
-    // var conditions= {userId:details.userId, courseId:details.courseId}
     userInCourse.findOne({userId: details.userId, courseId: details.courseId},
        function (err, userInCourse) {
             if (err) {
-                console.log("course handler: getting files of user in course");
+                console.log("course handler: getting files of user in course failed");
                 cb(err)
             }
             else {
@@ -74,52 +73,33 @@ function getFiles(details, cb) {
         });
 }
 
-// function addFiles(details, cb) {
-//     async.waterfall([
-//         async.apply(checkIfCourseExist,details),
-//         checkIfUserExist,
-//         addFilesAfterCheck
-//     ],function (err, result){
-//         if (err){
-//             cb(err);
-//         }
-//         else{
-//             cb(null, result);
-//         }
-//     });
-// }
-//
-//
-// function checkIfCourseExist(details, cb) {
-//     course.findOne({_id: details.courseId}, function (err, course) {
-//         if (err) {
-//             console.log("course handler: course error");
-//             return cb(err)
-//         }
-//         else {
-//             return cb(null, details)
-//         }
-//     });
-// }
-//
-// function checkIfUserExist(details, cb) {
-//     student.findOne({_id: details.userId}, function (err, student) {
-//         if (err) {
-//             console.log("course handler: student error");
-//
-//             return cb(err)
-//         }
-//         else {
-//             return cb(null, details)
-//         }
-//     });
-// }
+function getCourses(user,cb){
+    userInCourse.find({userId: user._id}).populate('courseId').lean().exec(
+        function (err, courses) {
+            if (err) {
+                console.log("course handler: getting files of user in course");
+                cb(err)
+            }
+            else {
+               // delete courses[0].files;
+                var reformat = courses.map(i=>({
+                    // _id:i._id,
+                        "courseId":i.courseId,
+                        "userId":i.userId
+                }));
+                cb(null, reformat)
+            }
+        });
+}
+
+
 
 
 module.exports = {
     addCourse,
     addFiles,
     addUserToCourse,
-    getFiles
+    getFiles,
+    getCourses
 
 };

@@ -11,7 +11,11 @@ var mongoose = require('mongoose'),
     offer = require('../../../db/models/dispatcher/offerModel'),
     savedOffer = require('../../../db/models/driver/savedOfferModel'),
 
-    course = require ('../../../db/models/course/courseModel');
+    course = require ('../../../db/models/course/courseModel'),
+    //student = require ('../../../db/models/student/studentModel'),
+    Student = require ('../../../db/models/student/studentModel');
+
+
 // userInCourse = require ('../../../db/models/course/courseModel');
 
 
@@ -88,6 +92,48 @@ function getFiles (req,res,next){
     });
 }
 
+function getFiles (req,res,next){
+    var userInCourse={};
+    userInCourse["courseId"]=req.params.courseId;
+    userInCourse["userId"]= req.params.userId;
+    // userInCourse["files"]=req.body.files;
+    validate(userInCourse,function(err,details){
+        if (err){
+            next(err)
+        }else
+        if(details==null){
+            next(err)
+        }else{
+            res.locals.details=userInCourse;
+            next(null,details)
+        }
+    });
+}
+
+
+function getCourses(req,res,next){
+    var userId = req.params.userId;
+    if (!userId) {
+        var msg = 'invalid parameters';
+        error(msg);
+        next(new Error(msg));
+    }
+    student.findOne({_id:userId},function(err,user){
+        if (err){
+            next(err);
+        }else{
+            if (!user){
+                var msg = 'invalid user id';
+                error(msg)
+                next(new Error(msg))
+            }else{
+                res.locals.details=user;
+                next();
+            }
+        }
+    });
+}
+
 
 function validate(details, cb) {
     async.waterfall([
@@ -107,10 +153,11 @@ function checkIfUserExist(details, cb) {
     student.findOne({_id: details.userId}, function (err, student) {
         if (err) {
             console.log("course handler: student error");
-
             return cb(err)
         }
         else {
+            console.log(details.userId)
+            console.log(student)
             return cb(null, details)
         }
     });
@@ -124,6 +171,7 @@ function checkIfCourseExist(details, cb) {
             return cb(err)
         }
         else {
+            // console.log(course)
             return cb(null, details)
         }
     });
@@ -134,5 +182,6 @@ module.exports = {
     addCourse,
     addFiles,
     addUserToCourse,
-    getFiles
+    getFiles,
+    getCourses
 };
