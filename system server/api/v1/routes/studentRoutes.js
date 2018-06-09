@@ -27,6 +27,10 @@ router.route('/login')
         studentValidator.login,
         studentController.login );
 
+router.route('/:userId/getMessages')
+    .get(
+        studentValidator.getMessages,
+        studentController.getMessages);
 
 module.exports = router;
 

@@ -16,11 +16,11 @@ var stundetValidator = require('../validators/studentValidator');
  * @param {*} next
  */
 function register(req, res, next) {
-    studentHandler.register(res.locals.userDetails, function (err,student){
-        if(err){
+    studentHandler.register(res.locals.userDetails, function (err, student) {
+        if (err) {
             next(err)
         }
-        else{
+        else {
             res.json({student})
         }
     });
@@ -39,23 +39,37 @@ function login(req, res, next) {
     studentHandler.login(
         req.body.username,
         req.body.password,
-        function (err, user){
-            if(err){
-                var errorJson= {
-                    "succes":false
+        function (err, user) {
+            if (err) {
+                var errorJson = {
+                    "succes": false
                 }
                 // next(errorJson)
                 res.json(errorJson)
             }
-            else{
+            else {
                 res.json(user)
             }
         });
 }
 
+
+function getMessages(req, res, next) {
+    studentHandler.getMessages(res.locals.details, function (err, messages) {
+        if (err) {
+            next(err)
+        }
+        else {
+            res.json({messages})
+        }
+    });
+
+}
+
 module.exports =
     {
         register,
-        login
+        login,
+        getMessages
     };
 

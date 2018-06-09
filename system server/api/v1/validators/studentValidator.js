@@ -12,6 +12,7 @@ var mongoose = require('mongoose'),
     savedOffer = require('../../../db/models/driver/savedOfferModel'),
 
     student = require ('../../../db/models/student/studentModel');
+    // userInCourse = require('../../../db/models/course/userInCourseModel');
 
 var async = require('async');
 var bcrypt = require('bcrypt');
@@ -48,7 +49,32 @@ function login(req, res, next){
     next()
 }
 
+function getMessages(req,res,next){
+    var userId = req.params.userId;
+    if (!userId) {
+        var msg = 'invalid parameters';
+        error(msg);
+        next(new Error(msg));
+    }
+    student.findOne({_id:userId},function(err,user){
+        if (err){
+            next(err);
+        }else{
+            if (!user){
+                var msg = 'invalid user id';
+                error(msg)
+                next(new Error(msg))
+            }else{
+                res.locals.details=user;
+                next();
+            }
+        }
+    });
+}
+
+
 module.exports = {
     register,
-    login
+    login,
+    getMessages
 };
