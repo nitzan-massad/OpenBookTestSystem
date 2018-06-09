@@ -66,10 +66,30 @@ function getMessages(req, res, next) {
 
 }
 
+function readMessage(req,res,nexr){
+    studentHandler.readMessage(res.locals.details, function (err, success) {
+        if (err) {
+            var errorJson = {
+                "succes": false
+            }
+            // next(errorJson)
+            res.json({"succes": false})
+        }
+        else {
+            console.log(success)
+            var correctJson = {
+                "succes": true
+            }
+            res.json({"succes": true})
+        }
+    });
+}
+
 module.exports =
     {
         register,
         login,
-        getMessages
+        getMessages,
+        readMessage
     };
 

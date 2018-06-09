@@ -32,6 +32,12 @@ router.route('/:userId/getMessages')
         studentValidator.getMessages,
         studentController.getMessages);
 
+router.route('/readMessage')
+    .post(
+        studentValidator.readMessage,
+        studentController.readMessage);
+
+
 module.exports = router;
 
 

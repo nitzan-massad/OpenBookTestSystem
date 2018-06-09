@@ -95,9 +95,29 @@ function getMessages(user, cb) {
             }
         });
 }
+function readMessage(details,cb){
+    userInCourse.update({userId:details.userId,"messages._id":details.messageId},
+        {
+            $set:
+                {
+                    "messages.$.isRead": true
+                }
+
+        }, {new: true}, function (err, userInCourse) {
+            if (err) {
+                console.log("course handler: user in course error failed");
+                cb(err)
+            }
+            else {
+                cb(null, userInCourse)
+            }
+
+        });
+}
 
 module.exports = {
     register,
     login,
-    getMessages
+    getMessages,
+    readMessage
 };
