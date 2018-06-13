@@ -84,8 +84,8 @@ function getCourses(user,cb){
                // delete courses[0].files;
                 var reformat = courses.map(i=>({
                     // _id:i._id,
-                        "courseId":i.courseId,
-                        "userId":i.userId
+                        "courseId":i.courseId
+                        // "userId":i.userId
                 }));
                 cb(null, reformat)
             }

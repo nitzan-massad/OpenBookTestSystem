@@ -12,7 +12,6 @@ var express = require('express');
 var router = express.Router();
 
 // routes
-var driverRoutes = require('./driverRoutes'); 
 var truckRoutes = require('./truckRoutes');
 var globalRoutes = require('./globalRoutes');
 
@@ -27,7 +26,6 @@ var requestController = require('../controllers/requestController');
 // All the API requests will go through here first of all
 //router.all('*', requestController.verifyHeaders);
 
-router.use('/driver/', driverRoutes);
 router.use('/truck/', truckRoutes);
 
 router.use('/global/', globalRoutes);

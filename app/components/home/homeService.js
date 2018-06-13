@@ -8,6 +8,28 @@ app.factory('homeService', ['$http', function($http) {
     //service.courseName = getCookieInfo("courseName") ;
     //service.firstName = getCookieInfo("firstName");
     //service.userType = getCookieInfo("userType");
+    service.getCourses=function(){
+        // var userId=service.getCookieInfo("userId");
+        var userId="5b1505b2065f3b668fc55654";
+      return $http.get("http://localhost:3000/api/v1/course/"+userId+"/getcourses")
+        return $http(req)
+            .then(function (response){
+                let data = response.data;
+                if (data!=null){
+                    console.log("get courses - data "+ data);
+                    return Promise.resolve(data);
+                }
+              else{
+                    console.log("get courses - reject in get courses");
+
+                    return Promise.reject();
+                }
+            })
+            .catch(function () {
+                console.log("exception im get courses");
+                return Promise.reject();
+            });
+    };
 
     service.setCourseID = function (courseName,courseID ,courseNumber){
         var m_firstName =service.getCookieInfo("firstName");
