@@ -11,7 +11,8 @@ var mongoose = require('mongoose'),
     offer = require('../../../db/models/dispatcher/offerModel'),
     savedOffer = require('../../../db/models/driver/savedOfferModel'),
 
-    student = require ('../../../db/models/student/studentModel');
+    student = require ('../../../db/models/student/studentModel'),
+    userInCourse = require('../../../db/models/course/userInCourseModel');
 
 var async = require('async');
 var bcrypt = require('bcrypt');
@@ -48,7 +49,60 @@ function login(req, res, next){
     next()
 }
 
+function getMessages(req,res,next){
+    var userId = req.params.userId;
+    if (!userId) {
+        var msg = 'invalid parameters';
+        error(msg);
+        next(new Error(msg));
+    }
+    student.findOne({_id:userId},function(err,user){
+        if (err){
+            next(err);
+        }else{
+            if (!user){
+                var msg = 'invalid user id';
+                error(msg)
+                next(new Error(msg))
+            }else{
+                res.locals.details=user;
+                next();
+            }
+        }
+    });
+}
+
+function readMessage(req,res,next){
+    var details={};
+    details["userId"]=req.body.userId;
+    details["messageId"]=req.body.messageId;
+    if (!req.body.userId || !req.body.messageId) {
+        var msg = 'invalid parameters';
+        error(msg);
+        next(new Error(msg));
+    }
+    userInCourse.findOne({userId:details.userId,"messages._id":details.messageId },function(err,userInCourse){
+        if (err){
+            next(err);
+        }else{
+            if (!userInCourse){
+                var msg = 'invalid user id or msg id';
+                error(msg)
+                next(new Error(msg))
+            }else{
+                console.log(userInCourse)
+                res.locals.details=details;
+                next();
+            }
+        }
+    });
+
+}
+
+
 module.exports = {
     register,
-    login
+    login,
+    getMessages,
+    readMessage
 };
