@@ -457,7 +457,7 @@
 
                 var policyBase64 = Base64.encode(tmp3);
                 document.getElementById("policyElement").value = policyBase64;
-                var awskey = "dcV2s5d86qp0QvV+gahcDf9HnJjRCffB4dqKyd9a"
+                var awskey = "gYD1k7KBd7RbLRr5dd8DZwLPwUgqrm9XOeM9dkUs"
                 var signature = b64_hmac_sha1(awskey, policyBase64);
                 document.getElementById("signatureElement").value = signature;
                 console.log("filename : "+filename);
@@ -473,7 +473,7 @@
     <input id ="fileNameElement" type="hidden" name="key" value="testfile9.txt"  />
     <input type="hidden" name="acl" value="public-read" />
     <input type="hidden" name="content-type" value="application/octet-stream" />
-    <input type="hidden" name="AWSAccessKeyId" value="AKIAJL4QAWFVAVQMBIRA" />
+    <input type="hidden" name="AWSAccessKeyId" value="AKIAICBVBPA77XOB2AGQ" />
     <input id="policyElement" name="policy" type="hidden" value="ewogICJleHBpcmF0aW9uIjogIjIwMTgtMDctMDdUMTI6MDA6MDAuMDAwWiIsCiAgImNvbmRpdGlvbnMiOiBbCiAgICB7ImJ1Y2tldCI6ICJvcGVuYm9va3Rlc3RsaXJvbiIgfSwKICAgIHsiYWNsIjogInB1YmxpYy1yZWFkIiB9LAogICAgWyJlcSIsICIka2V5IiwgInRlc3RmaWxlMy50eHQiXSwKICAgIFsic3RhcnRzLXdpdGgiLCAiJENvbnRlbnQtVHlwZSIsICJ0ZXh0LyJdLAogIF0KfQo=" />
     <input id="signatureElement" type="hidden" name="signature" value="TV3LG7M+/4pgZS2QHPpSY/JtIjE=" />
     <input id ="nit" name="file" type="file" onchange="myFunction()" accept="application/pdf,application/vnd.ms-excel" />

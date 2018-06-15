@@ -7,12 +7,12 @@ app.controller('LoginController', ['LoginService', '$location', '$window','homeS
 
         self.user = {username: '', password: ''};
         self.wrongDetails =false;
-
+        //LoginService.logout();
         self.login = function(valid) {
             if (valid) {
 
                 LoginService.login(self.user).then(function (success) {
-                    //console.log("look at me now !!!");
+                    console.log("look at me now !!!");
                     self.wrongDetails =true;
                     homeService.setInfoAfterLogin(success);
                     $location.path('/');

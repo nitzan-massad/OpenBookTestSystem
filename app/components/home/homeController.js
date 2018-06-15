@@ -3,17 +3,18 @@ app.controller('homeController', ['$location', '$window','studentCoursePageServi
     function($location, $window,studentCoursePageService,homeService) {
         let self=this;
 
-        /*if (homeService.checkIfCookieExist){
+        if (!homeService.checkIfCookieExist){
             window.location.href = "#/login";
         }
-        */
+
+
         self.name = homeService.getCookieInfo("firstName");
         self.image ="app/styles/folderImg.png";
         self.courses = [
             {_id:'983274',courseName:'Advanced topics in cyber security', courseNumber:'372-0-000',courseTestDateFirst:'12.1.18',courseTestDateSecond:'12.2.18'},
-            {_id:'983275',courseName:'Algorythms', courseNumber:'372-0-111',courseTestDateFirst:'11.1.18',courseTestDateSecond:'11.2.18'},
+            {_id:'5b20e6b88a9a1304bc590ac1',courseName:'Algorythms', courseNumber:'372-0-111',courseTestDateFirst:'11.1.18',courseTestDateSecond:'11.2.18'},
             {_id:'983276',courseName:'Information Retrieval', courseNumber:'372-0-222',courseTestDateFirst:'1.1.18',courseTestDateSecond:'1.2.18'},
-            {_id:'983277',courseName:'Algorythms12', courseNumber:'372-0-333',courseTestDateFirst:'13.1.18',courseTestDateSecond:'11.2.18'},
+            {_id:'983277',courseName:'Advanced Algorythms', courseNumber:'372-0-333',courseTestDateFirst:'13.1.18',courseTestDateSecond:'11.2.18'},
             {_id:'983278',courseName:'Information Retrieval12', courseNumber:'372-0-444',courseTestDateFirst:'15.1.18',courseTestDateSecond:'1.2.18'}
         ];
 
@@ -32,7 +33,7 @@ app.controller('homeController', ['$location', '$window','studentCoursePageServi
                     break;
                 default:
                     //console.log("ronTonBon3");
-                    window.location.href = "#/lecturerCoursePage";
+                    window.location.href = "#/studentCoursePage";
             }
         }
 

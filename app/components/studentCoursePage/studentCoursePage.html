@@ -5,15 +5,15 @@
 
 
     <h3> Course name:&nbsp;&nbsp;&nbsp; {{coursePageCtrl.courseName}}&nbsp;&nbsp;&nbsp;{{ coursePageCtrl.courseNumber}}</h3>
-    <form action="http://s3-eu-west-1.amazonaws.com/openbooktestliron" method="post" enctype="multipart/form-data">
+    <form action="http://s3-eu-west-1.amazonaws.com/openbooktestliron" method="post" enctype="multipart/form-data" >
         <input id ="fileNameElement" type="hidden" name="key" value="testfile9.txt"  />
         <input type="hidden" name="acl" value="public-read" />
         <input type="hidden" name="content-type" value="application/octet-stream" />
-        <input type="hidden" name="AWSAccessKeyId" value="AKIAJL4QAWFVAVQMBIRA" />
+        <input type="hidden" name="AWSAccessKeyId" value="AKIAJZ5JC2NTLFHKSQPQ" />
         <input id="policyElement" name="policy" type="hidden" value="ewogICJleHBpcmF0aW9uIjogIjIwMTgtMDctMDdUMTI6MDA6MDAuMDAwWiIsCiAgImNvbmRpdGlvbnMiOiBbCiAgICB7ImJ1Y2tldCI6ICJvcGVuYm9va3Rlc3RsaXJvbiIgfSwKICAgIHsiYWNsIjogInB1YmxpYy1yZWFkIiB9LAogICAgWyJlcSIsICIka2V5IiwgInRlc3RmaWxlMy50eHQiXSwKICAgIFsic3RhcnRzLXdpdGgiLCAiJENvbnRlbnQtVHlwZSIsICJ0ZXh0LyJdLAogIF0KfQo=" />
         <input id="signatureElement" type="hidden" name="signature" value="TV3LG7M+/4pgZS2QHPpSY/JtIjE=" />
-        <input id ="nit" name="file" type="file" onchange="myFunction()" accept="application/pdf,application/vnd.ms-excel" />
-        <input name="submit" value="Upload" type="submit" />
+        <input id ="inputFileElement" align="left" style="color: #0b2e13; margin-left: -10%;" name="file" type="file" onchange="angular.element(this).scope().uploadFileChange()" accept="application/pdf,application/vnd.ms-excel" />
+        <input name="submit" value="Upload" type="submit" align="left" onclick="angular.element(this).scope().submitForm()"  />
     </form>
     </br>
     </br>

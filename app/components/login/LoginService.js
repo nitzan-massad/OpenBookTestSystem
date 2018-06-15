@@ -28,14 +28,11 @@ app.factory('LoginService', ['$http',"$route", function($http,$route) {
     };
 
     service.logout=function () {
-        if($cookies.get('DrinkShop')) {
-            $cookies.remove('DrinkShop')
-            $route.reload();
-        }
+        document.cookie = 'OpenTestBookSystem' + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
     }
 
     service.checkCookie= function () {
-        var isUserLoggedIn = $cookies.get('DrinkShop')
+        var isUserLoggedIn = $cookies.get('OpenTestBookSystem')
         if(isUserLoggedIn!== undefined) {
             if(isUserLoggedIn[0]==='j')
                 isUserLoggedIn=isUserLoggedIn.substring(2)
