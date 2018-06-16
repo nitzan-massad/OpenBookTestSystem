@@ -12,7 +12,6 @@ app.factory('LoginService', ['$http',"$route", function($http,$route) {
         return $http.post(self.loginUrl, user)
           return $http(req)
             .then(function(response) {
-
                 let data = response.data;
                 if(data.succes===true) {
                     service.isLoggedIn = true;

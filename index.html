@@ -58,6 +58,10 @@
 <div class="header" ng-controller="mainController as mainCtrl">
 
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+
+        <div style="width:120px">
+            <p>{{ mainCtrl.clock  | date:'medium'}}</p>
+        </div>
         <a  href="#/">
         <img src="{{mainCtrl.logo}}"  alt="" height="100vh" style="text-align: left; margin-right: -100%"   />
         </a>
@@ -78,6 +82,7 @@
                         <img src="{{mainCtrl.mail}}"  alt="" height="50" style="text-align: left; margin-left: -15%"  />
                         </a>
                     </li>
+
 
                 </ul>
             </div>
