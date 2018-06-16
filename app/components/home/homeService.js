@@ -26,7 +26,7 @@ app.factory('homeService', ['$http', function($http) {
                 }
             })
             .catch(function () {
-                console.log("exception im get courses");
+                console.log("exception in get courses");
                 return Promise.reject();
             });
     };

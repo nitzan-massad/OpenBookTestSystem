@@ -11,21 +11,14 @@ app.controller('homeController', ['$location', '$window','studentCoursePageServi
         self.image ="app/styles/folderImg.png";
         self.getCourses=
             homeService.getCourses()
-            .then(function(courses) {
-                // var stringCourses = JSON.stringify(courses);
-                console.log("response!! " + courses + courses.data.courses.length);
+            .then(function(res) {
+                // console.log("response!! " + res +" "+ res.data.courses.length);
                 self.courses = [];
-                for (i = 0; i <  courses.data.courses.length; i++) {
-                    self.courses.push(i,courses.data.courses[i].courseId)
+                for (i = 0; i <  res.data.courses.length; i++) {
+                    self.courses[i]=res.data.courses[i].courseId;
+
                 }
             });
-        // self.courses = [
-            // {_id:'983274',courseName:'Advanced topics in cyber security', courseNumber:'372-0-000',courseTestDateFirst:'12.1.18',courseTestDateSecond:'12.2.18'},
-            // {_id:'983275',courseName:'Algorythms', courseNumber:'372-0-111',courseTestDateFirst:'11.1.18',courseTestDateSecond:'11.2.18'},
-            // {_id:'983276',courseName:'Information Retrieval', courseNumber:'372-0-222',courseTestDateFirst:'1.1.18',courseTestDateSecond:'1.2.18'},
-            // {_id:'983277',courseName:'Algorythms12', courseNumber:'372-0-333',courseTestDateFirst:'13.1.18',courseTestDateSecond:'11.2.18'},
-            // {_id:'983278',courseName:'Information Retrieval12', courseNumber:'372-0-444',courseTestDateFirst:'15.1.18',courseTestDateSecond:'1.2.18'}
-        // ];
 
         self.openCoursePage = function (courseName,courseID,courseNumber) {
             homeService.setCourseID(courseID,courseName,courseNumber);
