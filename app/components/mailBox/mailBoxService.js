@@ -8,7 +8,7 @@ app.factory('MailBoxService', ['$http', function($http) {
 
     self.userReadMessageUrl ="http://localhost:3000/api/v1/student/userReadMessage";
     service.userReadMessage = function (userId ,msgId) {
-        let readMessageJson = {userId:userId,messageId:msgId}
+        let readMessageJson = {userId:"5b1505b2065f3b668fc55654",messageId:"5b250610a818ff4cc7a0ecc6"}
         return $http.post(self.userReadMessageUrl,readMessageJson)
         return $http(req)
             .then(function(response) {

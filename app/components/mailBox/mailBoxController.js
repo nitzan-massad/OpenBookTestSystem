@@ -13,12 +13,15 @@ app.controller('mailBoxController', ['$location', '$window','MailBoxService','ho
                         self.messages[i]=data.messages[i];
                     }
                 });
-        // self.messages = [
-        //     {msgid:'1111',course:'Algo',subject:'extra time' , message:'you have extra time',isRead:false},
-        //     {msgid:'2222',course:'Algo',subject:'Q2 mistake', message:'there is a mistake in Q 2 ',isRead:true},
-        //     {msgid:'3333',course:'economic',subject:'extra time', message:'you have extra time',isRead:true}
-        // ]
 
+    self.readMessage=
+        function(msg){
+            if (msg.isRead=false){
+                msg.read=true;
+                
+
+            }
+        }
         // Object.keys(self.messages).forEach(function(key) {
         //     if (self.messages[key].isRead == false){
         //         //self.messages[key].isRead = true;

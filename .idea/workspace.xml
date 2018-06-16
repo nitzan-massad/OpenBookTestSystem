@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa9e32b7-6278-470b-a9f7-47eee125507e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/styles/whiteMailBox.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/mailBox/mailBox.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/mailBox/mailBox.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/mailBox/mailBoxController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/mailBox/mailBoxController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/mailBox/mailBoxService.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/mailBox/mailBoxService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system server/api/v1/validators/courseValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/system server/api/v1/validators/courseValidator.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="C:\Users\nitzan\IdeaProjects\OpenTestBookSystem\.idea\shelf/" />
@@ -25,11 +20,11 @@
         <splitter split-orientation="horizontal" split-proportion="0.7945691">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="mailBox.html" pinned="false" current-in-tab="false">
+              <file leaf-file-name="mailBox.html" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/components/mailBox/mailBox.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="279">
-                      <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+                    <state relative-caret-position="235">
+                      <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
                       <folding>
                         <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                       </folding>
@@ -37,11 +32,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="mailBoxController.js" pinned="false" current-in-tab="true">
+              <file leaf-file-name="mailBoxController.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/components/mailBox/mailBoxController.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="250">
-                      <caret line="21" selection-start-line="21" selection-end-line="27" selection-end-column="13" />
+                    <state relative-caret-position="308">
+                      <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
                     </state>
                   </provider>
                 </entry>
@@ -49,8 +44,8 @@
               <file leaf-file-name="mailBoxService.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/components/mailBox/mailBoxService.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="203">
-                      <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+                    <state relative-caret-position="120">
+                      <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
                     </state>
                   </provider>
                 </entry>
@@ -106,7 +101,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Jekyll</find>
       <find>theme</find>
       <find>`</find>
       <find>m</find>
@@ -136,6 +130,7 @@
       <find>TruckNow-App-Auth</find>
       <find>drivers</find>
       <find>config</find>
+      <find>Wiser-app</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/server</dir>
@@ -192,11 +187,11 @@
         <option value="$PROJECT_DIR$/system server/connection.js" />
         <option value="$PROJECT_DIR$/system server/config/default.json" />
         <option value="$PROJECT_DIR$/config/default.json" />
-        <option value="$PROJECT_DIR$/app/components/mailBox/mailBoxService.js" />
         <option value="$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js" />
         <option value="$PROJECT_DIR$/system server/api/v1/validators/courseValidator.js" />
         <option value="$PROJECT_DIR$/system server/db/models/course/userInCourseModel.js" />
         <option value="$PROJECT_DIR$/app/components/mailBox/mailBox.html" />
+        <option value="$PROJECT_DIR$/app/components/mailBox/mailBoxService.js" />
         <option value="$PROJECT_DIR$/app/components/mailBox/mailBoxController.js" />
       </list>
     </option>
@@ -825,7 +820,7 @@
       <workItem from="1528120211704" duration="352000" />
       <workItem from="1528482559805" duration="91000" />
       <workItem from="1528720901036" duration="2323000" />
-      <workItem from="1528796020819" duration="23191000" />
+      <workItem from="1528796020819" duration="24927000" />
     </task>
     <task id="LOCAL-00001" summary="7.5.18 SERVER WORKS ON FRONT">
       <created>1525686497153</created>
@@ -866,7 +861,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166535000" />
+    <option name="totallyTimeSpent" value="168271000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -882,7 +877,7 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32896653" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -890,11 +885,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.16666667" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32896653" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32896653" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.049356222" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20958512" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32753623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1351,13 +1346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/mailBox/mailBoxService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system server/db/models/course/userInCourseModel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -1389,27 +1377,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/mailBox/mailBox.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="53">
+          <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/mailBox/mailBoxService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/mailBox/mailBoxController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="21" selection-start-line="21" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="308">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/app/components/mailBox/mailBox.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
+        <state relative-caret-position="235">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
