@@ -117,6 +117,7 @@ function sendMessageToCourse(req,res,next){
     array["courseId"]=req.body.courseId;
     array["userId"]=req.body.userId;
     array["message"]=req.body.message;
+    // array["subject"]= req.body.subject;
     if ( !array["courseId"] || !array["userId"] || !array["message"]){
         var msg = 'invalid parameters';
         error(msg);
