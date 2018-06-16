@@ -3,10 +3,11 @@ app.controller('homeController', ['$location', '$window','studentCoursePageServi
     function($location, $window,studentCoursePageService,homeService) {
         let self=this;
 
-        /*if (homeService.checkIfCookieExist){
+        if (!homeService.checkIfCookieExist){
             window.location.href = "#/login";
         }
-        */
+
+
         self.name = homeService.getCookieInfo("firstName");
         self.image ="app/styles/folderImg.png";
         self.getCourses=
@@ -35,7 +36,7 @@ app.controller('homeController', ['$location', '$window','studentCoursePageServi
                     break;
                 default:
                     //console.log("ronTonBon3");
-                    window.location.href = "#/lecturerCoursePage";
+                    window.location.href = "#/studentCoursePage";
             }
         }
 

@@ -10,13 +10,19 @@ app.controller('lecturerCoursePageController', ['$location', '$window','lecturer
         self.courseNumber = homeService.getCookieInfo("courseNumber");
 
         self.sendAMesssage = function(){
-           //    console.log(self.Message);
+               console.log(self.Message);
             if(self.Message=="" || self.Message==null){
-               self.sentMessage = "Please Add a Messaage";
+               self.sentMessage = "Please Add a Message";
             }
             else{
-                lecturerCoursePageService.sendAMessage(self.Message);
-                self.sentMessage = "Message Sent Successfully";
+                lecturerCoursePageService.sendAMessage(self.Message).then(
+
+                    self.sentMessage = "Message Sent Successfully",
+                self.Message = ""
+
+                );
+
+                //self.sentMessage = "Message Sent Successfully";
             }
             self.Message = "";
             self.messageSentSuccessfully = true;

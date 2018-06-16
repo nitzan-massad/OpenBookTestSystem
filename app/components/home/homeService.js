@@ -34,26 +34,25 @@ app.factory('homeService', ['$http', function($http) {
     service.setCourseID = function (courseName,courseID ,courseNumber){
         var m_firstName =service.getCookieInfo("firstName");
         var m_userType = service.getCookieInfo("userType");
-        setCookie(m_firstName,m_userType ,courseName,courseID,courseNumber);
+        var m_userId = service.getCookieInfo("userId");
+
+        setCookie(m_firstName,m_userType,m_userId ,courseName,courseID,courseNumber);
 
     }
 
 
     service.setInfoAfterLogin= function (response) {
 
-        //service.userType =response.data.status;
-        //service.firstName = response.data.firstName;
-        //service.userId = response.data._id;
-        setCookie(response.data.firstName,response.data.status ,"","","");
+        setCookie(response.data.firstName,response.data.status,response.data._id ,"","","");
 
     }
-    function setCookie(firstName,userType,courseName,courseID,courseNumber) {
+    function setCookie(firstName,userType,userId,courseName,courseID,courseNumber) {
         var daysToExpired = 0.5 ;
         var d = new Date();
         d.setTime(d.getTime() + (daysToExpired*24*60*60*1000));
         var expires = "expires=" + d.toGMTString();
 
-        var arr = {"firstName":firstName ,"userType":userType,"courseName":courseName,
+        var arr = {"firstName":firstName ,"userType":userType,"userId":userId,"courseName":courseName,
             "courseID":courseID,"courseNumber":courseNumber };
         var json_str = JSON.stringify(arr);
 

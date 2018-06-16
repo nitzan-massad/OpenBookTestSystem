@@ -31,6 +31,7 @@
     <script src="app/components/studentCoursePage/studentCoursePageService.js"></script>
     <script src="app/components/lecturerCoursePage/lecturerCoursePageService.js"></script>
     <script src="app/components/mailBox/mailBoxService.js"></script>
+    <script src="app/components/uploadFileToS3/uploadFileToS3Service.js"></script>
     <!--our css pages-->
     <link href="app/components/home/home.css" rel="stylesheet">
 
@@ -58,10 +59,10 @@
 
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
         <a  href="#/">
-        <img src="{{mainCtrl.logo}}"  alt="" height="100" style="text-align: left; margin-right: -100%"   />
+        <img src="{{mainCtrl.logo}}"  alt="" height="100vh" style="text-align: left; margin-right: -100%"   />
         </a>
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" style="margin-left: -10%" href="#/"><big >Wiser</big><small> Open Book Exam</small>  </a>
+            <a class="navbar-brand js-scroll-trigger" style="margin-left: 5%" href="#/"><big >Wiser</big><small> Open Book Exam</small>  </a>
 
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
@@ -74,7 +75,7 @@
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
                         <a href="#/mailBox">
-                        <img src="{{mainCtrl.mail}}"  alt="" height="50" style="text-align: left; margin-left: 95%"  />
+                        <img src="{{mainCtrl.mail}}"  alt="" height="50" style="text-align: left; margin-left: -15%"  />
                         </a>
                     </li>
 
@@ -83,8 +84,9 @@
         </div>
     </nav>
 </div>
-
-    <ng-view>
+<br>
+<br>
+<ng-view>
     </ng-view>
 
 
