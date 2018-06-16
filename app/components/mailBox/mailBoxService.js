@@ -6,12 +6,20 @@ app.factory('MailBoxService', ['$http', function($http) {
     let service = {};
 
 
-    self.userReadMessageUrl ="http://localhost:3000/api/v1/student/userReadMessage";
-    service.userReadMessage = function (userId ,msgId) {
-        let readMessageJson = {userId:"5b1505b2065f3b668fc55654",messageId:"5b250610a818ff4cc7a0ecc6"}
+    self.userReadMessageUrl ="http://localhost:3000/api/v1/student/readMessage";
+    service.readOneMessage = function (msgId) {
+        let readMessageJson = {userId:"5b1505b2065f3b668fc55654",messageId:msgId}
         return $http.post(self.userReadMessageUrl,readMessageJson)
-        return $http(req)
             .then(function(response) {
+                let data=response.data;
+                if (data!=null){
+                    console.log("read message - data "+ data);
+                    return Promise.resolve(data);
+                }
+                else{
+                    console.log("read message - reject in read message");
+                    return Promise.reject();
+                }
             })
             .catch(function () {
                 console.log("excption");

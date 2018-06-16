@@ -11,14 +11,21 @@ app.controller('mailBoxController', ['$location', '$window','MailBoxService','ho
                     self.messages=[];
                     for (i = 0; i <  data.messages.length; i++) {
                         self.messages[i]=data.messages[i];
+                        if (data.messages[i].isRead == false){
+                            self.readMessage(data.messages[i])
+                        }
                     }
                 });
 
     self.readMessage=
         function(msg){
-            if (msg.isRead=false){
+            if (msg.isRead==false){
                 msg.read=true;
-                
+                MailBoxService.readOneMessage(msg.msgid)
+                    .then(function(data){
+                        if (data.succes==true)
+                            console.log("read message success "+msg.msgid);
+                    })
 
             }
         }
