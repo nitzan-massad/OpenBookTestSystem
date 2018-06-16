@@ -5,12 +5,6 @@ var error = debug('studentValidator:error');
 var log = debug('studentValidator:log');
 
 var mongoose = require('mongoose'),
-
-    driver = require('../../../db/models/driver/driverModel'),
-    truck = require('../../../db/models/truck/truckModel'),
-    offer = require('../../../db/models/dispatcher/offerModel'),
-    savedOffer = require('../../../db/models/driver/savedOfferModel'),
-
     student = require ('../../../db/models/student/studentModel'),
     userInCourse = require('../../../db/models/course/userInCourseModel');
 

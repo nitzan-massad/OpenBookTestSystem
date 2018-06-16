@@ -6,13 +6,7 @@ var log = debug('courseValidator:log');
 
 var mongoose = require('mongoose'),
 
-    driver = require('../../../db/models/driver/driverModel'),
-    truck = require('../../../db/models/truck/truckModel'),
-    offer = require('../../../db/models/dispatcher/offerModel'),
-    savedOffer = require('../../../db/models/driver/savedOfferModel'),
-
     course = require ('../../../db/models/course/courseModel'),
-    //student = require ('../../../db/models/student/studentModel'),
     Student = require ('../../../db/models/student/studentModel');
 
 

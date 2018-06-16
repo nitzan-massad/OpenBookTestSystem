@@ -22,17 +22,17 @@ var limiter = new RateLimit({
 });
 //app.use(limiter);
 
-var AdminUser = require('./admin/models/adminUserModel');
-
-var accessLogStream = fs.createWriteStream(path.join(__dirname, '/logs/access.log'), {flags: 'a'});
-app.use(logger('remote-addr - :remote-user [:date[clf]] \
-":method :url HTTP/:http-version" :status :res[content-length] \
-":referrer" ":user-agent" :response-time ms', {
-  stream: accessLogStream,
-  skip: function (req,res) {
-    return req.url.startsWith('/test');
-  }
-}));
+// var AdminUser = require('./admin/models/adminUserModel');
+//
+// var accessLogStream = fs.createWriteStream(path.join(__dirname, '/logs/access.log'), {flags: 'a'});
+// app.use(logger('remote-addr - :remote-user [:date[clf]] \
+// ":method :url HTTP/:http-version" :status :res[content-length] \
+// ":referrer" ":user-agent" :response-time ms', {
+//   stream: accessLogStream,
+//   skip: function (req,res) {
+//     return req.url.startsWith('/test');
+//   }
+// }));
 
 /* ELASTIC DEMO
 _elastic.ping({

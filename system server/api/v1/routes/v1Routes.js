@@ -12,8 +12,8 @@ var express = require('express');
 var router = express.Router();
 
 // routes
-var truckRoutes = require('./truckRoutes');
-var globalRoutes = require('./globalRoutes');
+// var truckRoutes = require('./truckRoutes');
+// var globalRoutes = require('./globalRoutes');
 
 var studentRoutes = require('./studentRoutes');
 var courseRoute = require('./courseRoute');
@@ -25,10 +25,6 @@ var requestController = require('../controllers/requestController');
 
 // All the API requests will go through here first of all
 //router.all('*', requestController.verifyHeaders);
-
-router.use('/truck/', truckRoutes);
-
-router.use('/global/', globalRoutes);
 
 router.use('/student',studentRoutes);
 

@@ -6,9 +6,6 @@ var log = debug('mongooseInit:log');
 
 var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
-//var manager = require('./init/manager');
-
-//var dbConfig = require('config').get('MongoDB.Configurations');
 
 var dbConfig ={
 

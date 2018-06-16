@@ -5,7 +5,7 @@
             "user": "",
             "password": "",
             "port": "27017",
-            "database": "OpenBookTestSystem"
+            "database": "OpenBookExamSystem"
         },
         "currentVersion": 1
     },
@@ -14,7 +14,7 @@
     "Security": {
         "Request": {
             "Header": {
-                "key": "TruckNow-App-Auth",
+                "key": "Wiser-App-Auth",
                 "value": "HoJ20bK27$vj5WOmJ11hEy0400FC1988"
             }
         },

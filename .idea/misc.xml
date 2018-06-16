@@ -3,6 +3,11 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/system server/api/v1/validators/globalValidator.js" />
+    <file url="file://$PROJECT_DIR$/system server/api/v1/validators/truckValidator.js" />
+    <file url="file://$PROJECT_DIR$/system server/api/v1/validators/userValidator.js" />
+  </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
