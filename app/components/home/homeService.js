@@ -8,6 +8,7 @@ app.factory('homeService', ['$http', function($http) {
     //service.courseName = getCookieInfo("courseName") ;
     //service.firstName = getCookieInfo("firstName");
     //service.userType = getCookieInfo("userType");
+    service.isLoggedIn=false;
     service.getCourses=function(){
         // var userId=service.getCookieInfo("userId");
         var userId=service.getCookieInfo("userId");
@@ -42,8 +43,11 @@ app.factory('homeService', ['$http', function($http) {
 
 
     service.setInfoAfterLogin= function (response) {
-
+        // service.isLoggedIn=true;
+        // console.log("homeService, after login "+ service.isLoggedIn)
         setCookie(response.data.firstName,response.data.status,response.data._id ,"","","");
+        // mainController.updateLoginStatus();
+
 
     }
     function setCookie(firstName,userType,userId,courseName,courseID,courseNumber) {
@@ -85,6 +89,14 @@ app.factory('homeService', ['$http', function($http) {
             return false ;
         }
         return true;
+    }
+
+    service.checkIfLoggedIn=function(){
+
+        if (service.getCookieInfo("userId")=="")
+            return false;
+        else
+            return true;
     }
 
     return service ;

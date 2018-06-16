@@ -27,7 +27,10 @@ app.factory('LoginService', ['$http',"$route", function($http,$route) {
     };
 
     service.logout=function () {
+        // homeService.isLoggedIn=false;
         document.cookie = 'OpenTestBookSystem' + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+        // console.log("login service, logout "+ homeService.isLoggedIn)
+        // mainController.updateLoginStatus();
     }
 
     service.checkCookie= function () {

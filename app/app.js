@@ -7,7 +7,12 @@ app.controller('mainController', ['MailBoxService', '$timeout', function (MailBo
     let vm = this;
     vm.mail = "app/styles/whiteMailBox.png";
     vm.logo = "app/styles/logoWhiteWithColor.png";
-
+    // vm.isLoggedIn=homeService.checkIfLoggedIn();
+    // console.log(vm.isLoggedIn);
+    // vm.updateLoginStatus=function(){
+    //     vm.isLoggedIn=homeService.checkIfLoggedIn();
+    //     console.log(vm.isLoggedIn);
+    // };
 
     vm.clock = "loading clock..."; // initialise the time variable
     vm.tickInterval = 1000 //ms
@@ -16,7 +21,6 @@ app.controller('mainController', ['MailBoxService', '$timeout', function (MailBo
         vm.clock = Date.now() // get the current time
         $timeout(tick, vm.tickInterval); // reset the timer
     }
-
     // Start the timer
     $timeout(tick, vm.tickInterval);
 
