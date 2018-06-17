@@ -10,7 +10,8 @@ app.factory('homeService', ['$http', function($http) {
     //service.userType = getCookieInfo("userType");
     service.getCourses=function(){
         // var userId=service.getCookieInfo("userId");
-        var userId="5b1505b2065f3b668fc55654";
+        var userId =service.getCookieInfo("userId");
+
       return $http.get("http://localhost:3000/api/v1/course/"+userId+"/getcourses")
         return $http(req)
             .then(function (response){
@@ -79,13 +80,14 @@ app.factory('homeService', ['$http', function($http) {
         return "";
     }
 
-  service.checkIfCookieExist =function checkIfCookieExist() {
+    service.checkIfCookieExist =function checkIfCookieExist() {
         var decodedCookie = decodeURIComponent(document.cookie);
         if (decodedCookie === undefined ){
             return false ;
         }
         return true;
     }
+
 
     return service ;
 }]);

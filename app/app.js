@@ -7,7 +7,7 @@ app.controller('mainController',['MailBoxService',  function (MailBoxService) {
     let vm = this;
     vm.mail = "app/styles/whiteMailBox.png";
     vm.logo = "app/styles/logoWhiteWithColor.png";
-
+    console.log("sda")
     //vm.mail = "app/styles/whiteMailBoxWithNotfiction.png";
 }]);
 

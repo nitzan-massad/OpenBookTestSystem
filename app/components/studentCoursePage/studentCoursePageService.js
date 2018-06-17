@@ -44,6 +44,30 @@ app.factory('studentCoursePageService', ['$http','homeService', function($http,h
 
     }
 
+    service.getCourses = function (){
+        var userId =homeService.getCookieInfo("userId");
+        var courseID=  homeService.getCookieInfo("courseID");
+        var url = "http://localhost:3000/api/v1/course/"+courseID+"/"+userId+"/getfiles";
+
+        return $http.get(url)
+            .then(function (response){
+                let data=response.data;
+                if (data!=null){
+                    return Promise.resolve(data);
+                }
+                else{
+                    console.log("get courses - reject in get courses");
+
+                    return Promise.reject();
+                }
+            })
+            .catch(function () {
+                console.log("exception in get courses");
+                return Promise.reject();
+            });
+
+
+    }
 
     return service ;
 }]);
