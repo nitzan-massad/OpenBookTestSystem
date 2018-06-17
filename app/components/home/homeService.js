@@ -11,7 +11,8 @@ app.factory('homeService', ['$http', function($http) {
     service.isLoggedIn=false;
     service.getCourses=function(){
         // var userId=service.getCookieInfo("userId");
-        var userId=service.getCookieInfo("userId");
+        var userId =service.getCookieInfo("userId");
+
       return $http.get("http://localhost:3000/api/v1/course/"+userId+"/getcourses")
         return $http(req)
             .then(function (response){
@@ -43,11 +44,8 @@ app.factory('homeService', ['$http', function($http) {
 
 
     service.setInfoAfterLogin= function (response) {
-        // service.isLoggedIn=true;
-        // console.log("homeService, after login "+ service.isLoggedIn)
-        setCookie(response.data.firstName,response.data.status,response.data._id ,"","","");
-        // mainController.updateLoginStatus();
 
+        setCookie(response.data.firstName,response.data.status,response.data._id ,"","","");
 
     }
     function setCookie(firstName,userType,userId,courseName,courseID,courseNumber) {

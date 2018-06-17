@@ -8,6 +8,7 @@ app.controller('studentCoursePageController', ['$location', '$window','studentCo
         self.courseName = homeService.getCookieInfo("courseName") ;
         self.courseNumber = homeService.getCookieInfo("courseID") ;
         self.image ="app/styles/pdfLogo.png";
+        /*
         self.files= [
             {fileName:'first file', fileURL:'http://animalsoc.tau.ac.il/upload/articles/GFMSUE2627animals_society47_long.pdf'},
             {fileName:'second file', fileURL:'http://clickit3.ort.org.il/APPS/Public/GetFile.aspx?inline=yes&f=Files/6202BF2E-DF58-4347-9B32-1ECFD84803A3/92C4C077-5B20-422E-A6D3-7DC59BDE7533/31F82C30-D609-4E35-8E2A-51050E7E6EC7/C4AC8C15-DD2C-4EA1-B8CB-1C5D577C5840.pdf&n=%D7%A2%D7%A7%D7%A8%D7%95%D7%A0%D7%95%D7%AA_%D7%94%D7%93%D7%9E%D7%95%D7%A7%D7%A8%D7%98%D7%99%D7%94_%D7%AA%D7%A8%D7%A9%D7%99%D7%9D.pdf'},
@@ -17,6 +18,19 @@ app.controller('studentCoursePageController', ['$location', '$window','studentCo
             {fileName:'6 file', fileURL:'http://animalsoc.tau.ac.il/upload/articles/GFMSUE2627animals_society47_long.pdf'},
             {fileName:'7 file', fileURL:'http://animalsoc.tau.ac.il/upload/articles/GFMSUE2627animals_society47_long.pdf'}
         ];
+        */
+        //self.files = getCourses() ;
+
+        self.getFiles =  studentCoursePageService.getCourses()
+               .then(function(data){
+                    self.files=[];
+                   for ( i = 0; i <  data.files.length; i++) {
+                       console.log(data.files[i])
+                       self.files[i]=data.files[i];
+                   }
+               })
+
+
         $scope.uploadFileChange = function () {
            // console.log("in func");
 
