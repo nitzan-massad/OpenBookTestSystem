@@ -109,6 +109,7 @@ function readMessage(details,cb){
                 cb(err)
             }
             else {
+                console.log("message "+ details.messageId+" marked as read");
                 cb(null, userInCourse)
             }
 

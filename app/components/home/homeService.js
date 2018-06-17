@@ -8,6 +8,7 @@ app.factory('homeService', ['$http', function($http) {
     //service.courseName = getCookieInfo("courseName") ;
     //service.firstName = getCookieInfo("firstName");
     //service.userType = getCookieInfo("userType");
+    service.isLoggedIn=false;
     service.getCourses=function(){
         // var userId=service.getCookieInfo("userId");
         var userId =service.getCookieInfo("userId");
@@ -80,7 +81,7 @@ app.factory('homeService', ['$http', function($http) {
         return "";
     }
 
-    service.checkIfCookieExist =function checkIfCookieExist() {
+  service.checkIfCookieExist =function checkIfCookieExist() {
         var decodedCookie = decodeURIComponent(document.cookie);
         if (decodedCookie === undefined ){
             return false ;
@@ -88,6 +89,13 @@ app.factory('homeService', ['$http', function($http) {
         return true;
     }
 
+    service.checkIfLoggedIn=function(){
+
+        if (service.getCookieInfo("userId")=="")
+            return false;
+        else
+            return true;
+    }
 
     return service ;
 }]);

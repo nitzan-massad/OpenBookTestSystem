@@ -58,6 +58,10 @@
 <div class="header" ng-controller="mainController as mainCtrl">
 
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+
+        <div style="width:120px">
+            <p>{{ mainCtrl.clock  | date:'medium'}}</p>
+        </div>
         <a  href="#/">
         <img src="{{mainCtrl.logo}}"  alt="" height="100vh" style="text-align: left; margin-right: -100%"   />
         </a>
@@ -71,13 +75,17 @@
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#/">Home</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#/login">Login</a>
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"  href="#/login">Login</a>
                     </li>
+                    <!--<li class="nav-item mx-0 mx-lg-1">-->
+                        <!--<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"  href="#/logout" ng-show="mainCtrl.isLoggedIn">Logout</a>-->
+                    <!--</li>-->
                     <li class="nav-item mx-0 mx-lg-1">
                         <a href="#/mailBox">
                         <img src="{{mainCtrl.mail}}"  alt="" height="50" style="text-align: left; margin-left: -15%"  />
                         </a>
                     </li>
+
 
                 </ul>
             </div>

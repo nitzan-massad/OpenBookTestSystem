@@ -12,7 +12,6 @@ app.factory('LoginService', ['$http',"$route", function($http,$route) {
         return $http.post(self.loginUrl, user)
           return $http(req)
             .then(function(response) {
-
                 let data = response.data;
                 if(data.succes===true) {
                     service.isLoggedIn = true;
@@ -28,7 +27,10 @@ app.factory('LoginService', ['$http',"$route", function($http,$route) {
     };
 
     service.logout=function () {
+        // homeService.isLoggedIn=false;
         document.cookie = 'OpenTestBookSystem' + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+        // console.log("login service, logout "+ homeService.isLoggedIn)
+        // mainController.updateLoginStatus();
     }
 
     service.checkCookie= function () {
