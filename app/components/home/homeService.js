@@ -86,9 +86,12 @@ app.factory('homeService', ['$http', function($http) {
   service.checkIfCookieExist =function checkIfCookieExist() {
         var decodedCookie = decodeURIComponent(document.cookie);
         if (decodedCookie === undefined ){
+            console.log("no cookie")
             return false ;
         }
-        return true;
+      console.log("yes cookie")
+
+      return true;
     }
 
     service.checkIfLoggedIn=function(){

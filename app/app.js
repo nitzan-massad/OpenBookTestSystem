@@ -3,16 +3,13 @@
  */
 let app = angular.module('myApp', ['ngRoute']);
 
-app.controller('mainController', ['MailBoxService', '$timeout', function (MailBoxService, $timeout) {
+app.controller('mainController', ['MailBoxService', '$timeout','LoginService', function (MailBoxService, $timeout,LoginService) {
     let vm = this;
     vm.mail = "app/styles/whiteMailBox.png";
     vm.logo = "app/styles/logoWhiteWithColor.png";
-    // vm.isLoggedIn=homeService.checkIfLoggedIn();
-    // console.log(vm.isLoggedIn);
-    // vm.updateLoginStatus=function(){
-    //     vm.isLoggedIn=homeService.checkIfLoggedIn();
-    //     console.log(vm.isLoggedIn);
-    // };
+
+    vm.loginService=LoginService;
+    vm.isLoggedIn= vm.loginService.isLoggedIn;
 
     vm.clock = "loading clock..."; // initialise the time variable
     vm.tickInterval = 1000 //ms

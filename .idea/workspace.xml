@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa9e32b7-6278-470b-a9f7-47eee125507e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/home/homeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/home/homeController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/home/homeService.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/home/homeService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/login/LoginService.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/login/LoginService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/mailBox/mailBoxController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/mailBox/mailBoxController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/js/freelancer.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/js/freelancer.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="C:\Users\nitzan\IdeaProjects\OpenTestBookSystem\.idea\shelf/" />
@@ -39,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="101">
+              <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -69,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mailBox.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mailBox.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/mailBox/mailBox.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -79,6 +77,15 @@
                 <element signature="n#style#0;n#h2#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="freelancer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/js/freelancer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -95,7 +102,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>manif</find>
       <find>manife</find>
       <find>manifes</find>
       <find>setCourseID</find>
@@ -125,6 +131,7 @@
       <find>logout</find>
       <find>checkCookie</find>
       <find>getcourses</find>
+      <find>top</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/server</dir>
@@ -136,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/components/uploadFileToS3/uploadFileToS3Service.js" />
         <option value="$PROJECT_DIR$/app/components/courseDetails/courseDetails.html" />
         <option value="$PROJECT_DIR$/app/components/studentCoursePage/studentCoursePage.html" />
         <option value="$PROJECT_DIR$/app/components/studentCoursePage/studentCoursePageController.js" />
@@ -187,6 +193,7 @@
         <option value="$PROJECT_DIR$/app/components/home/homeController.js" />
         <option value="$PROJECT_DIR$/app/components/login/LoginService.js" />
         <option value="$PROJECT_DIR$/app/components/home/homeService.js" />
+        <option value="$PROJECT_DIR$/app/styles/js/freelancer.js" />
       </list>
     </option>
   </component>
@@ -343,7 +350,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/app/app.js&#10;mai&#9;null&#9;null&#10;main&#9;null&#9;null&#10;index&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/index.html&#10;ןמגקס&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/index.html&#10;mainCo&#9;null&#9;null&#10;mainC&#9;null&#9;null&#10;home&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/app/components/home/home.html&#10;config&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/config&#10;ךםעןמ&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/app/components/login/LoginService.js&#10;homeS&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/app/components/home/homeService.js&#10;courseMo&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/db/models/course/courseModel.js&#10;handler&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/api/v1/handlers/studentHandler.js&#10;user&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/db/models/course/userInCourseModel.js&#10;userinco&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/db/models/course/userInCourseModel.js&#10;courseVa&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/api/v1/validators/courseValidator.js&#10;work&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/.idea/workspace.xml&#10;manif&#9;null&#9;null&#10;studentValidator&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/system server/api/v1/validators/studentValidator.js&#10;studentRoutes&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/system server/api/v1/routes/studentRoutes.js&#10;v1Routes&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/system server/api/v1/routes/v1Routes.js&#10;apiRoutes&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/system server/api/routes/apiRoutes.js&#10;www&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/system server/bin/www&#10;v1&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/system server/api/v1/routes/v1Routes.js&#10;_config&#9;null&#9;null&#10;student&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/api/v1/routes/studentRoutes.js&#10;driverM&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/db/models/driver/driverModel.js&#10;v&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/.idea/vcs.xml" />
+    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/index.html&#10;freelancer&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/app/styles/js/freelancer.min.js&#10;app&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/app/app.js&#10;mai&#9;null&#9;null&#10;main&#9;null&#9;null&#10;ןמגקס&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/index.html&#10;mainCo&#9;null&#9;null&#10;mainC&#9;null&#9;null&#10;home&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/app/components/home/home.html&#10;config&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/config&#10;ךםעןמ&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/app/components/login/LoginService.js&#10;homeS&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/app/components/home/homeService.js&#10;courseMo&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/db/models/course/courseModel.js&#10;handler&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/api/v1/handlers/studentHandler.js&#10;user&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/db/models/course/userInCourseModel.js&#10;userinco&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/db/models/course/userInCourseModel.js&#10;courseVa&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/api/v1/validators/courseValidator.js&#10;work&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/.idea/workspace.xml&#10;manif&#9;null&#9;null&#10;studentValidator&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/system server/api/v1/validators/studentValidator.js&#10;studentRoutes&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/system server/api/v1/routes/studentRoutes.js&#10;v1Routes&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/system server/api/v1/routes/v1Routes.js&#10;apiRoutes&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/system server/api/routes/apiRoutes.js&#10;www&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/system server/bin/www&#10;v1&#9;FILE&#9;file://C:/Users/nitzan/IdeaProjects/OpenTestBookSystem/system server/api/v1/routes/v1Routes.js&#10;_config&#9;null&#9;null&#10;student&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/api/v1/routes/studentRoutes.js&#10;driverM&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/system server/db/models/driver/driverModel.js&#10;v&#9;FILE&#9;file:///Users/oferdan-on/OpenBookTestSystem/.idea/vcs.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -764,7 +771,7 @@
       <workItem from="1528120211704" duration="352000" />
       <workItem from="1528482559805" duration="91000" />
       <workItem from="1528720901036" duration="2323000" />
-      <workItem from="1528796020819" duration="43691000" />
+      <workItem from="1528796020819" duration="44349000" />
     </task>
     <task id="LOCAL-00001" summary="7.5.18 SERVER WORKS ON FRONT">
       <created>1525686497153</created>
@@ -805,7 +812,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187035000" />
+    <option name="totallyTimeSpent" value="187693000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -953,52 +960,52 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js</url>
+          <url />
           <line>93</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js</url>
+          <url />
           <line>79</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js</url>
+          <url />
           <line>49</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js</url>
+          <url />
           <line>50</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/handlers/courseHandler.js</url>
+          <url />
           <line>53</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/controllers/studentController.js</url>
+          <url />
           <line>69</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js</url>
+          <url />
           <line>98</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js</url>
+          <url />
           <line>112</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js</url>
+          <url />
           <line>106</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/system server/api/v1/handlers/studentHandler.js</url>
+          <url />
           <line>107</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
@@ -1011,13 +1018,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/system server/api/v1/controllers/truckController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="6" lean-forward="true" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system server/api/v1/routes/courseRoute.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1302,16 +1302,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/home/homeController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1341,6 +1331,23 @@
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/js/freelancer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
