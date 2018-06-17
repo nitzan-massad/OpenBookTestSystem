@@ -26,26 +26,7 @@ app.controller('mailBoxController', ['$location', '$window','MailBoxService','ho
                         if (data.succes==true)
                             console.log("read message success "+msg.msgid);
                     })
-
             }
         }
-        // Object.keys(self.messages).forEach(function(key) {
-        //     if (self.messages[key].isRead == false){
-        //         //self.messages[key].isRead = true;
-        //         MailBoxService.userReadMessage(homeService.userId ,self.messages[key].msgid );
-        //         //console.log('Key : ' + key + ', Value : ' + self.messages[key].course)
-        //     }
-        // })
-
-        // self.userReadMessages= function () {
-        //
-        //     Object.keys(self.messages).forEach(function(key) {
-        //
-        //         if (self.messages[key].isRead == false){
-        //             //self.messages[key].isRead = true;
-        //             //console.log('Key : ' + key + ', Value : ' + self.messages[key].course)
-        //         }
-        //     })
-        // }
     }
 ]);
