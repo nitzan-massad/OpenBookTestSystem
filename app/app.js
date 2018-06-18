@@ -3,16 +3,30 @@
  */
 let app = angular.module('myApp', ['ngRoute']);
 
-app.controller('mainController', ['MailBoxService', '$timeout', function (MailBoxService, $timeout) {
+app.controller('mainController', ['MailBoxService', '$timeout','homeService', function (MailBoxService, $timeout,homeService) {
     let vm = this;
-    vm.mail = "app/styles/whiteMailBox.png";
+    vm.mailNoNewMessages = "app/styles/whiteMailBox.png";
+    vm.mailWithNewMessages = "app/styles/whiteMailBoxWithNotfiction.png";
+
     vm.logo = "app/styles/logoWhiteWithColor.png";
-    // vm.isLoggedIn=homeService.checkIfLoggedIn();
-    // console.log(vm.isLoggedIn);
-    // vm.updateLoginStatus=function(){
-    //     vm.isLoggedIn=homeService.checkIfLoggedIn();
-    //     console.log(vm.isLoggedIn);
-    // };
+    vm.homeService = homeService;
+
+    vm.logout = function () {
+        homeService.logout();
+    }
+
+
+
+    vm.checkIfNewMessage =MailBoxService.getMessages()
+        .then(function(data){
+            for (i = 0; i <  data.messages.length; i++) {
+                if (data.messages[i].isRead == false){
+                    return true ;
+                }
+            }
+            return false;
+        });
+
 
     vm.clock = "loading clock..."; // initialise the time variable
     vm.tickInterval = 1000 //ms
@@ -21,10 +35,10 @@ app.controller('mainController', ['MailBoxService', '$timeout', function (MailBo
         vm.clock = Date.now() // get the current time
         $timeout(tick, vm.tickInterval); // reset the timer
     }
-    // Start the timer
+
     $timeout(tick, vm.tickInterval);
 
-    //vm.mail = "app/styles/whiteMailBoxWithNotfiction.png";
+
 }]);
 
 app.config(['$locationProvider', function ($locationProvider) {

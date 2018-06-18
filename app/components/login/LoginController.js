@@ -7,7 +7,7 @@ app.controller('LoginController', ['LoginService', '$location', '$window','homeS
 
         self.user = {username: '', password: ''};
         self.wrongDetails =false;
-        //LoginService.logout();
+
         self.login = function(valid) {
             if (valid) {
 

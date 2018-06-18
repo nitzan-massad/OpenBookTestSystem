@@ -13,16 +13,16 @@ app.factory('MailBoxService', ['$http','homeService', function($http,homeService
             .then(function(response) {
                 let data=response.data;
                 if (data!=null){
-                    console.log("read message - data "+ data);
+
                     return Promise.resolve(data);
                 }
                 else{
-                    console.log("read message - reject in read message");
+
                     return Promise.reject();
                 }
             })
             .catch(function () {
-                console.log("excption");
+
                 return Promise.reject();
             });
     }
@@ -35,18 +35,31 @@ app.factory('MailBoxService', ['$http','homeService', function($http,homeService
                 .then(function (response){
                     let data= response.data;
                     if (data!=null){
-                        console.log("get messages - data "+ data);
                         return Promise.resolve(data);
                     }
                     else{
-                        console.log("get messages - reject in get messages");
                         return Promise.reject();
                     }
                 })
                 .catch(function () {
-                    console.log("exception in get messages");
                     return Promise.reject();
                 });
     };
+
+    service.checkIfNewMessage = function () {
+        service.getMessages()
+            .then(function(data){
+                self.messages=[];
+                for (i = 0; i <  data.messages.length; i++) {
+                    self.messages[i]=data.messages[i];
+                    if (data.messages[i].isRead == false){
+                       return true ;
+                    }
+                }
+            });
+        return false;
+    }
+
+
     return service ;
 }]);

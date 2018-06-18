@@ -4,10 +4,7 @@
 
 app.factory('homeService', ['$http', function($http) {
     let service = {};
-    //service.courseID = getCookieInfo("courseID") ;
-    //service.courseName = getCookieInfo("courseName") ;
-    //service.firstName = getCookieInfo("firstName");
-    //service.userType = getCookieInfo("userType");
+
     service.isLoggedIn=false;
     service.getCourses=function(){
         // var userId=service.getCookieInfo("userId");
@@ -18,17 +15,17 @@ app.factory('homeService', ['$http', function($http) {
             .then(function (response){
                 let data = response.data;
                 if (data!=null){
-                    console.log("get courses - data "+ data);
+                    //console.log("get courses - data "+ data);
                     return Promise.resolve(data);
                 }
               else{
-                    console.log("get courses - reject in get courses");
+                    //console.log("get courses - reject in get courses");
 
                     return Promise.reject();
                 }
             })
             .catch(function () {
-                console.log("exception in get courses");
+                //console.log("exception in get courses");
                 return Promise.reject();
             });
     };
@@ -81,21 +78,28 @@ app.factory('homeService', ['$http', function($http) {
         return "";
     }
 
-  service.checkIfCookieExist =function checkIfCookieExist() {
+    service.checkIfCookieExist =function checkIfCookieExist() {
         var decodedCookie = decodeURIComponent(document.cookie);
-        if (decodedCookie === undefined ){
+        if (decodedCookie === "" ){
+            service.isLoggedIn =false;
             return false ;
         }
+      service.isLoggedIn =true;
         return true;
     }
+    service.logout=function () {
+        service.isLoggedIn=false;
+        document.cookie = 'OpenTestBookSystem' + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+        var json = []
+        var daysToExpired = 0.5 ;
+        var d = new Date();
+        d.setTime(d.getTime() - (daysToExpired*24*60*60*1000));
+        var expires = "expires=" + d.toGMTString();
+        document.cookie = "OpenTestBookSystem="+json + ";" + expires + ";path=/";
 
-    service.checkIfLoggedIn=function(){
-
-        if (service.getCookieInfo("userId")=="")
-            return false;
-        else
-            return true;
     }
+
+
 
     return service ;
 }]);

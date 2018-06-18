@@ -2,7 +2,7 @@ app.controller('homeController', ['$location', '$window', 'studentCoursePageServ
     function ($location, $window, studentCoursePageService, homeService) {
         let self = this;
 
-        if (!homeService.checkIfCookieExist) {
+        if (!homeService.checkIfCookieExist()) {
             window.location.href = "#/login";
         }
 
