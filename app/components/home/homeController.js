@@ -4,6 +4,7 @@ app.controller('homeController', ['$location', '$window', 'studentCoursePageServ
 
         if (!homeService.checkIfCookieExist()) {
             window.location.href = "#/login";
+
         }
 
 

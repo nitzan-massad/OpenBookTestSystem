@@ -26,7 +26,6 @@ app.controller('mailBoxController', ['$location', '$window','MailBoxService','ho
                         if (data.succes==true)
                             console.log("read message success "+msg.msgid);
                     })
-
             }
         }
 
