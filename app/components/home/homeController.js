@@ -1,9 +1,8 @@
-app.controller('homeController', ['$location', '$window', 'studentCoursePageService', 'homeService','LoginService',
-    function ($location, $window, studentCoursePageService, homeService,LoginService) {
+app.controller('homeController', ['$location', '$window', 'studentCoursePageService', 'homeService',
+    function ($location, $window, studentCoursePageService, homeService) {
         let self = this;
 
-        if (!homeService.checkIfCookieExist) {
-            console.log("nav to login")
+        if (!homeService.checkIfCookieExist()) {
             window.location.href = "#/login";
 
         }

@@ -6,7 +6,7 @@ app.controller('studentCoursePageController', ['$location', '$window','studentCo
     function($location, $window,studentCoursePageService,homeService,uploadFileToS3Service,$scope) {
         let self=this;
         self.courseName = homeService.getCookieInfo("courseName") ;
-        self.courseNumber = homeService.getCookieInfo("courseID") ;
+        self.courseNumber = homeService.getCookieInfo("courseNumber") ;
         self.image ="app/styles/pdfLogo.png";
         /*
         self.files= [
@@ -25,7 +25,6 @@ app.controller('studentCoursePageController', ['$location', '$window','studentCo
                .then(function(data){
                     self.files=[];
                    for ( i = 0; i <  data.files.length; i++) {
-                       console.log(data.files[i])
                        self.files[i]=data.files[i];
                    }
                })
@@ -203,9 +202,8 @@ app.controller('studentCoursePageController', ['$location', '$window','studentCo
         $scope.submitForm= function(){
             //console.log("here");
             var filename =document.getElementById("fileNameElement").value
-            studentCoursePageService.uploadFilePathToMongoDB(filename);
-            //document.getElementById("inputFileElement").value = "";
-            //self.files= dfasad
+            studentCoursePageService.uploadFilePathToMongoDB(filename)
+
         }
 
 

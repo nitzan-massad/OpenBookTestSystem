@@ -28,5 +28,6 @@ app.controller('mailBoxController', ['$location', '$window','MailBoxService','ho
                     })
             }
         }
+
     }
 ]);
