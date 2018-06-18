@@ -67,6 +67,7 @@ function getFiles(details, cb) {
                 cb(err)
             }
             else {
+               console.log("-----------%%%%%%%%%%%%%%%------- 0"+userInCourse.files);
                 cb(null, userInCourse.files)
             }
 
