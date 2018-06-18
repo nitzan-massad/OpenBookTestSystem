@@ -47,7 +47,7 @@ app.controller('studentCoursePageController', ['$location', '$window','studentCo
                     {"bucket": "openbooktestliron" },
                     {"acl": "public-read" },
                     ["eq", "$key",filename ],
-                    ["starts-with", "$Content-Type", "application/"],
+                    ["starts-with", "$Content-Type", "application/pdf"],
                 ]
             };
             var policyDetailsString = JSON.stringify(policyDetailsJson);
@@ -209,6 +209,7 @@ app.controller('studentCoursePageController', ['$location', '$window','studentCo
 
 
         self.openFile = function (url) {
+            console.log(url);
             window.location.href = url;
         }
 
