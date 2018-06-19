@@ -12,6 +12,7 @@
     "cors": "^2.8.4",
     "debug": "~2.6.9",
     "dotenv": "^5.0.1",
+    "ejs": "^2.6.1",
     "express": "^4.15.5",
     "express-rate-limit": "^2.11.0",
     "express-validator": "^5.1.2",

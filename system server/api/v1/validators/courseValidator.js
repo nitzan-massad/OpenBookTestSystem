@@ -14,8 +14,8 @@ var mongoose = require('mongoose'),
 
 
 var async = require('async');
-var bcrypt = require('bcrypt');
-const saltRounds = 10;
+// var bcrypt = require('bcrypt');
+// const saltRounds = 10;
 
 function addCourse(req, res, next)
 {

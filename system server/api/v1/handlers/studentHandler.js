@@ -7,7 +7,7 @@ var mongoose = require('mongoose'),
     userInCourse = require('../../../db/models/course/userInCourseModel');
 
 
-var bcrypt = require('bcrypt');
+// var bcrypt = require('bcrypt');
 var async = require('async');
 const saltRounds = 10;
 
@@ -37,7 +37,9 @@ function login(username, password, callback) {
             callback(new Error(msg));
         }
         else {
-            var isCorrectPassword = bcrypt.compareSync(password, student.password);
+            // var isCorrectPassword = bcrypt.compareSync(password, student.password);
+
+            var isCorrectPassword= (password==student.password);
             if (isCorrectPassword) {
                 console.log("user: " + student.firstName + " " + student.lastName + " successfully logged in");
                 var toReturn = {

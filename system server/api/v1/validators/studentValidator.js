@@ -9,7 +9,7 @@ var mongoose = require('mongoose'),
     userInCourse = require('../../../db/models/course/userInCourseModel');
 
 var async = require('async');
-var bcrypt = require('bcrypt');
+// var bcrypt = require('bcrypt');
 const saltRounds = 10;
 
 function register(req, res, next)
@@ -18,9 +18,9 @@ function register(req, res, next)
     userDetails["firstName"]=req.body.firstName;
     userDetails["lastName"]=req.body.lastName;
     userDetails["username"]=req.body.username;
-    var password=req.body.password;
-    var hashPassword= bcrypt.hashSync(password,saltRounds);
-    userDetails["password"]=hashPassword;
+    // var password=req.body.password;
+    // var hashPassword= bcrypt.hashSync(password,saltRounds);
+    userDetails["password"]=req.body.password;
     userDetails["status"]=req.body.status;
     userDetails["email"]=req.body.email;
 
