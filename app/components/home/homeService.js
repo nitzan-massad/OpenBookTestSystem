@@ -10,7 +10,7 @@ app.factory('homeService', ['$http', function($http) {
         // var userId=service.getCookieInfo("userId");
         var userId =service.getCookieInfo("userId");
 
-      return $http.get("http://localhost:3000/api/v1/course/"+userId+"/getcourses")
+      return $http.get("http://ec2-18-130-133-221.eu-west-2.compute.amazonaws.com/api/v1/course/"+userId+"/getcourses")
         return $http(req)
             .then(function (response){
                 let data = response.data;

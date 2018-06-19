@@ -9,7 +9,8 @@ app.factory('LoginService', ['$http',"$route", function($http,$route) {
     service.isLoggedIn = false;
     // console.log("beginning "+service.isLoggedIn);
 
-    self.loginUrl ="http://localhost:3000/api/v1/student/login";
+    // self.loginUrl ="http://localhost:3000/api/v1/student/login";
+    self.loginUrl ="http://ec2-18-130-133-221.eu-west-2.compute.amazonaws.com/api/v1/student/login";
     service.login = function(user) {
         return $http.post(self.loginUrl, user)
           return $http(req)

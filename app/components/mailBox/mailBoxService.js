@@ -6,7 +6,7 @@ app.factory('MailBoxService', ['$http','homeService', function($http,homeService
     let service = {};
 
 
-    self.userReadMessageUrl ="http://localhost:3000/api/v1/student/readMessage";
+    self.userReadMessageUrl ="http://ec2-18-130-133-221.eu-west-2.compute.amazonaws.com/api/v1/student/readMessage";
     service.readOneMessage = function (msgId) {
         let readMessageJson = {userId: homeService.getCookieInfo("userId"),messageId:msgId}
         return $http.post(self.userReadMessageUrl,readMessageJson)
@@ -30,7 +30,7 @@ app.factory('MailBoxService', ['$http','homeService', function($http,homeService
 
     service.getMessages=function(){
         var userId=homeService.getCookieInfo("userId");
-        return $http.get("http://localhost:3000/api/v1/student/"+userId+"/getMessages")
+        return $http.get("http://ec2-18-130-133-221.eu-west-2.compute.amazonaws.com/api/v1/student/"+userId+"/getMessages")
             // return $http(req)
                 .then(function (response){
                     let data= response.data;

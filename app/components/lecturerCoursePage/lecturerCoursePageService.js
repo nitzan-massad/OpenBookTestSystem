@@ -15,7 +15,8 @@ app.factory('lecturerCoursePageService', ['$http','homeService', function($http,
             "userId":userID,
             "message" :message
         }
-        var url ="http://localhost:3000/api/v1/course/sendMessageToCourse";
+        // var url ="http://localhost:3000/api/v1/course/sendMessageToCourse";
+        var url = "http://ec2-18-130-133-221.eu-west-2.compute.amazonaws.com/api/v1/course/sendMessageToCourse"
         return $http.post(url, messageData)
         return $http(req)
             .then(function(response) {
