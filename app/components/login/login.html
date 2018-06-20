@@ -32,6 +32,8 @@
                     </br>
                     <button type="submit" ng-disabled="loginForm.$invalid || loginCtrl.dataLoading" class="btn btn-primary" id="sendMessageButton">Continue</button>
                 </div>
+                <span ng-show="loginCtrl.wrongDetails"
+                      class="help-block">Wrong log in details!</span>
             </form>
         </div>
     </div>

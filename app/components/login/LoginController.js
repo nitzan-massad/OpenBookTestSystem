@@ -12,10 +12,17 @@ app.controller('LoginController', ['LoginService', '$location', '$window','homeS
             if (valid) {
 
                 LoginService.login(self.user).then(function (success) {
-                    console.log("look at me now !!!");
+                    //console.log("look at me now !!!");
                     self.wrongDetails =true;
-                    homeService.setInfoAfterLogin(success);
-                    $location.path('/');
+                    console.log(success)
+                    if(success.data.succes===true) {
+                        homeService.setInfoAfterLogin(success);
+                        $location.path('/');
+                    }
+                    else{
+                        self.errorMessage = "Wrong log in details!";
+                        self.wrongDetails =true;
+                    }
                 }, function () {
                     self.errorMessage = "Wrong log in details!";
                     self.wrongDetails =true;
