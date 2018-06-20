@@ -5,6 +5,10 @@
 app.controller('mailBoxController', ['$location', '$window','MailBoxService','homeService',
     function($location, $window,MailBoxService,homeService) {
         let self=this;
+
+        if (!homeService.checkIfCookieExist()) {
+            window.location.href = "#/login";
+        }
         self.getMessages=
             MailBoxService.getMessages()
                 .then(function(data){
