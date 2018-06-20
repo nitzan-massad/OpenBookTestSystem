@@ -80,9 +80,14 @@
                     <li class="nav-item mx-0 mx-lg-1" ng-show="mainCtrl.homeService.isLoggedIn">
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" ng-click="mainCtrl.logout()"  href="#/login">Logout</a>
                     </li>
-                    <li class="nav-item mx-0 mx-lg-1" >
+                    <li class="nav-item mx-0 mx-lg-1" ng-hide="mainCtrl.mailBoxService.newMessagesExist">
                         <a href="#/mailBox">
                         <img src="{{mainCtrl.mailNoNewMessages}}"  alt="" height="50" style="text-align: left; margin-left: -15%"  />
+                        </a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1" ng-show="mainCtrl.mailBoxService.newMessagesExist">
+                        <a href="#/mailBox">
+                            <img src="{{mainCtrl.mailWithNewMessages}}"  alt="" height="50" style="text-align: left; margin-left: -15%"  />
                         </a>
                     </li>
 

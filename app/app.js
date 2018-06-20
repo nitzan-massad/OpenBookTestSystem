@@ -10,6 +10,7 @@ app.controller('mainController', ['MailBoxService', '$timeout','homeService', fu
 
     vm.logo = "app/styles/logoWhiteWithColor.png";
     vm.homeService = homeService;
+    vm.mailBoxService= MailBoxService;
 
     vm.logout = function () {
         homeService.logout();
@@ -17,15 +18,15 @@ app.controller('mainController', ['MailBoxService', '$timeout','homeService', fu
 
 
 
-    vm.checkIfNewMessage =MailBoxService.getMessages()
-        .then(function(data){
-            for (i = 0; i <  data.messages.length; i++) {
-                if (data.messages[i].isRead == false){
-                    return true ;
-                }
-            }
-            return false;
-        });
+    // vm.checkIfNewMessage =MailBoxService.getMessages()
+    //     .then(function(data){
+    //         for (i = 0; i <  data.messages.length; i++) {
+    //             if (data.messages[i].isRead == false){
+    //                 return true ;
+    //             }
+    //         }
+    //         return false;
+    //     });
 
 
     vm.clock = "loading clock..."; // initialise the time variable

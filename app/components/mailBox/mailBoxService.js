@@ -2,9 +2,8 @@
  * Created by nitzan on 21/05/18.
  */
 
-app.factory('MailBoxService', ['$http','homeService', function($http,homeService) {
+app.factory('MailBoxService', ['$http','homeService','$timeout', function($http,homeService,$timeout) {
     let service = {};
-
 
     self.userReadMessageUrl ="http://ec2-18-130-133-221.eu-west-2.compute.amazonaws.com/api/v1/student/readMessage";
     service.readOneMessage = function (msgId) {
@@ -13,7 +12,7 @@ app.factory('MailBoxService', ['$http','homeService', function($http,homeService
             .then(function(response) {
                 let data=response.data;
                 if (data!=null){
-
+                    service.newMessagesExist= false;
                     return Promise.resolve(data);
                 }
                 else{
@@ -46,19 +45,33 @@ app.factory('MailBoxService', ['$http','homeService', function($http,homeService
                 });
     };
 
-    service.checkIfNewMessage = function () {
+    // service.checkIfNewMessage = function () {
+    //     service.getMessages()
+    //         .then(function(data){
+    //             for (i = 0; i <  data.messages.length; i++) {
+    //                 if (data.messages[i].isRead == false){
+    //                     return true ;
+    //                 }
+    //             }
+    //         });
+    //     return false;
+    // };
+
+    service.newMessagesExist=false;
+    service.checkMessagesInterval=10000;
+    var check=function(){
         service.getMessages()
             .then(function(data){
-                self.messages=[];
                 for (i = 0; i <  data.messages.length; i++) {
-                    self.messages[i]=data.messages[i];
                     if (data.messages[i].isRead == false){
-                       return true ;
+                        service.newMessagesExist= true ;
                     }
                 }
             });
-        return false;
+        $timeout(check, service.checkMessagesInterval); // reset the timer
     }
+
+    $timeout(check, service.checkMessagesInterval); // reset the timer
 
 
     return service ;

@@ -1,2 +1,2 @@
-# TruckNow-Server
-REST API for TruckNow 
+# Wiser-Server
+REST API for Wiser 
